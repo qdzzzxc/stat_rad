@@ -5,18 +5,20 @@
 ## Структура
 
 ```
-raw/                       сканы лекций (PDF из Adobe Scan, без текстового слоя)
-lectures/lecNN/lecNN.md    исходник лекции: текст + формулы KaTeX
-lectures/lecNN/fig/*.svg   графики, нарисованные вручную
-html/lecNN.html            результат сборки; руками не править, но коммитить
-build.mjs                  сборка md → html (KaTeX пререндер, шрифты и SVG встроены)
-.claude/skills/            скиллы; .agents/skills — симлинк на них для Codex
+raw/                              сканы конспектов (PDF без текстового слоя; хранятся в Git LFS)
+lectures/lec01/                   лекция 1 из отдельного скана «лек 1 статрад.pdf»
+lectures/notes/index.md           серия «Стат. Рад. Лекции.pdf»: заголовок курса и вступление
+lectures/notes/lecNN/lecNN.md     лекции серии: текст + формулы KaTeX, графики в fig/
+html/lec01.html, html/notes.html  результат сборки; руками не править, но коммитить
+build.mjs                         сборка md → html (KaTeX пререндер, шрифты и SVG встроены)
+.claude/skills/                   скиллы; .agents/skills — симлинк на них для Codex
 ```
 
 ## Окружение
 
 - Python только через **uv**: `uv sync`, скрипты запускать как `uv run <script>`. Не использовать `pip` и `.venv/bin/python` напрямую; зависимости добавлять через `uv add`.
-- Node: `npm ci`. Сборка всех лекций — `npm run build`, одной — `node build.mjs lectures/lec02/lec02.md`.
+- Node: `npm ci`. Сборка всего — `npm run build`; отдельной лекции — `node build.mjs lectures/lec01`; серии — `node build.mjs lectures/notes`.
+- Git LFS: `*.pdf` и `html/*.html` отслеживаются через LFS (`.gitattributes`); после клона нужен `git lfs install`.
 - Проверка на ширине телефона: `.claude/skills/digitize-notes/scripts/phone_shots.sh` (нужен chrome-headless-shell из `~/.cache/ms-playwright`).
 
 ## Оцифровка лекции

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 170" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k5a04" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <rect x="100" y="14" width="56" height="30" rx="3"/>
+  <rect class="acc" stroke="#2b59c3" x="100" y="66" width="56" height="66" rx="3"/>
+  <line x1="20" y1="115" x2="98" y2="115" marker-end="url(#k5a04)"/>
+  <polyline points="156,108 196,108 196,29 158,29" marker-end="url(#k5a04)"/>
+  <polyline points="100,29 70,29 70,82 98,82" marker-end="url(#k5a04)"/>
+  <line x1="196" y1="108" x2="226" y2="108" marker-end="url(#k5a04)"/>
+  <rect x="228" y="90" width="44" height="36" rx="3"/>
+  <line x1="250" y1="160" x2="250" y2="128" marker-end="url(#k5a04)"/>
+  <line x1="272" y1="108" x2="318" y2="108" marker-end="url(#k5a04)"/>
+  <circle cx="196" cy="108" r="2.5" fill="currentColor" stroke="none"/>
+  <g fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="128" y="34" font-style="italic">T</text>
+    <text x="128" y="104">M2</text>
+    <text x="32" y="107" font-style="italic">a<tspan dy="3" font-size="10">k</tspan></text>
+    <text x="50" y="62" font-style="italic">b<tspan dy="3" font-size="10">k−1</tspan></text>
+    <text x="212" y="100" font-style="italic">b<tspan dy="3" font-size="10">k</tspan></text>
+    <text x="250" y="113">ФМ</text>
+    <text x="266" y="158" font-style="italic">ω₀</text>
+    <text x="298" y="98" font-style="italic">u(t)</text>
+  </g>
+</svg>

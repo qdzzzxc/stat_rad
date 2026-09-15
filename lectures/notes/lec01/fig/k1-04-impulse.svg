@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 250" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k1a04" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <!-- n(t): импульсная помеха -->
+  <line x1="30" y1="105" x2="308" y2="105" marker-end="url(#k1a04)"/>
+  <line x1="30" y1="105" x2="30" y2="12" marker-end="url(#k1a04)"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="1.8" d="M55 105V74H72V105M112 105V30H126V105M180 105V84H190V105M216 105V30H230V105"/>
+  <!-- моменты начала импульсов -->
+  <g stroke-width="1" stroke-dasharray="4 4" opacity=".6">
+    <line x1="55" y1="105" x2="55" y2="232"/><line x1="112" y1="105" x2="112" y2="232"/>
+    <line x1="180" y1="105" x2="180" y2="232"/><line x1="216" y1="105" x2="216" y2="232"/>
+  </g>
+  <!-- v(t): отклик на импульсы -->
+  <line x1="30" y1="232" x2="308" y2="232" marker-end="url(#k1a04)"/>
+  <line x1="30" y1="232" x2="30" y2="130" marker-end="url(#k1a04)"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2" d="M55 231C60 212 64 198 70 198S78 228 90 230M112 231C116 190 120 160 132 160S142 205 150 222S160 230 170 230M180 231C183 220 186 214 190 214S196 230 204 230M216 231C220 208 228 200 238 200S252 214 258 224S270 230 284 230"/>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="38" y="22">n(t)</text>
+    <text x="304" y="122">t</text>
+    <text x="38" y="142">v(t)</text>
+    <text x="304" y="248">t</text>
+  </g>
+</svg>

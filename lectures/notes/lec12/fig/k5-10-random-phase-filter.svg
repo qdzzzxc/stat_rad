@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 190" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k5a10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="8" y1="95" x2="30" y2="95"/>
+  <line x1="30" y1="45" x2="30" y2="145"/>
+  <line x1="30" y1="45" x2="54" y2="45" marker-end="url(#k5a10)"/>
+  <line x1="30" y1="145" x2="54" y2="145" marker-end="url(#k5a10)"/>
+  <rect x="56" y="29" width="46" height="32" rx="3"/>
+  <rect x="56" y="129" width="46" height="32" rx="3"/>
+  <line x1="102" y1="45" x2="124" y2="45" marker-end="url(#k5a10)"/>
+  <line x1="102" y1="145" x2="124" y2="145" marker-end="url(#k5a10)"/>
+  <rect x="126" y="29" width="42" height="32" rx="3"/>
+  <rect x="126" y="129" width="42" height="32" rx="3"/>
+  <polyline points="168,45 202,45 202,77" marker-end="url(#k5a10)"/>
+  <polyline points="168,145 202,145 202,113" marker-end="url(#k5a10)"/>
+  <rect x="186" y="79" width="32" height="32" rx="3"/>
+  <line x1="218" y1="95" x2="244" y2="95" marker-end="url(#k5a10)"/>
+  <rect class="acc" stroke="#2b59c3" x="246" y="77" width="44" height="36" rx="3"/>
+  <line x1="268" y1="148" x2="268" y2="115" marker-end="url(#k5a10)"/>
+  <line x1="290" y1="95" x2="326" y2="72" marker-end="url(#k5a10)"/>
+  <line x1="290" y1="95" x2="326" y2="118" marker-end="url(#k5a10)"/>
+  <g fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="16" y="86" font-style="italic">u(t)</text>
+    <text x="79" y="50">СФ</text>
+    <text x="79" y="150">СФ</text>
+    <text x="147" y="50">ДО</text>
+    <text x="147" y="150">ДО</text>
+    <text x="79" y="20" font-size="11" font-style="italic">h(t) = s₁(t₀ − t)</text>
+    <text x="79" y="178" font-size="11" font-style="italic">h(t) = s₀(t₀ − t)</text>
+    <text x="184" y="38" font-style="italic">z₁</text>
+    <text x="184" y="138" font-style="italic">z₀</text>
+    <text x="212" y="72" font-size="12">+</text>
+    <text x="212" y="126" font-size="12">−</text>
+    <text x="202" y="100" font-size="15">Σ</text>
+    <text x="268" y="100">ПУ</text>
+    <text x="280" y="146" font-style="italic">C</text>
+    <text x="334" y="70" font-style="italic">s₁</text>
+    <text x="334" y="130" font-style="italic">s₀</text>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 185" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k1a14" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="10" y1="95" x2="322" y2="95" marker-end="url(#k1a14)"/>
+  <line x1="165" y1="178" x2="165" y2="10" marker-end="url(#k1a14)"/>
+  <!-- огибающая -->
+  <g stroke-width="1" stroke-dasharray="3 3" opacity=".75">
+    <path d="M125 95C135 60 150 35 165 35S195 60 205 95M125 95C135 130 150 155 165 155S195 130 205 95"/>
+    <path d="M205 95C215 74 235 74 245 95C235 116 215 116 205 95M245 95C255 84 275 84 285 95C275 106 255 106 245 95M285 95C292 89 305 89 312 95C305 101 292 101 285 95"/>
+    <path d="M125 95C115 74 95 74 85 95C95 116 115 116 125 95M85 95C75 84 55 84 45 95C55 106 75 106 85 95M45 95C38 89 25 89 18 95C25 101 38 101 45 95"/>
+  </g>
+  <!-- заполнение -->
+  <path class="acc" stroke="#2b59c3" stroke-width="1.3" d="M21 92C24 92 24 100 27 100S30 90 33 90S36 98 39 98S42 94 45 94S48 99 51 99S54 88 57 88S60 104 63 104S66 86 69 86S72 102 75 102S78 92 81 92S84 99 87 99S90 83 93 83S96 111 99 111S102 77 105 77S108 111 111 111S114 83 117 83S120 99 123 99S126 83 129 83S132 121 135 121S138 57 141 57S144 143 147 143S150 41 153 41S156 153 159 153S162 35 165 35S168 153 171 153S174 41 177 41S180 143 183 143S186 57 189 57S192 121 195 121S198 83 201 83S204 99 207 99S210 83 213 83S216 111 219 111S222 77 225 77S228 111 231 111S234 83 237 83S240 99 243 99S246 92 249 92S252 102 255 102S258 86 261 86S264 104 267 104S270 88 273 88S276 99 279 99S282 94 285 94S288 98 291 98S294 90 297 90S300 100 303 100S306 92 309 92"/>
+  <!-- пометка -->
+  <ellipse cx="207" cy="95" rx="7" ry="15" stroke-width="1.1"/>
+  <line x1="212" y1="82" x2="232" y2="52" stroke-width="1"/>
+  <g fill="currentColor" stroke="none">
+    <text x="224" y="44" font-size="12">перенос по фазе</text>
+    <g font-style="italic"><text x="173" y="20">R<tspan font-size="10" dy="4">ξ</tspan><tspan dy="-4">(τ)</tspan></text><text x="314" y="113">τ</text></g>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 70" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k4a07" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="50" y1="40" x2="118" y2="40" marker-end="url(#k4a07)"/>
+  <rect x="120" y="22" width="64" height="36" rx="3"/>
+  <line class="acc" stroke="#2b59c3" x1="184" y1="40" x2="256" y2="40" marker-end="url(#k4a07)"/>
+  <g fill="currentColor" stroke="none">
+    <text x="58" y="32" font-style="italic">s(t)</text>
+    <text x="152" y="45" text-anchor="middle">СФ</text>
+    <text x="196" y="32" font-style="italic">s<tspan font-size="9" dy="3">вых</tspan><tspan dy="-3">(t)</tspan></text>
+  </g>
+</svg>

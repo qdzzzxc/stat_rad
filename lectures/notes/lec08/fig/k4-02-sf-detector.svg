@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 110" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k4a02" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="6" y1="50" x2="78" y2="50" marker-end="url(#k4a02)"/>
+  <rect x="80" y="32" width="60" height="36" rx="3"/>
+  <line x1="140" y1="50" x2="196" y2="50" marker-end="url(#k4a02)"/>
+  <rect x="198" y="32" width="50" height="36" rx="3"/>
+  <line x1="223" y1="100" x2="223" y2="70" marker-end="url(#k4a02)"/>
+  <line class="acc" stroke="#2b59c3" x1="248" y1="50" x2="282" y2="30" marker-end="url(#k4a02)"/>
+  <line class="acc" stroke="#2b59c3" x1="248" y1="50" x2="282" y2="70" marker-end="url(#k4a02)"/>
+  <g fill="currentColor" stroke="none">
+    <text x="12" y="42" font-style="italic">u(t)</text>
+    <text x="110" y="55" text-anchor="middle">СФ</text>
+    <text x="168" y="42" text-anchor="middle" font-style="italic">q</text>
+    <text x="223" y="55" text-anchor="middle">ПУ</text>
+    <text x="229" y="96" font-style="italic">z₀</text>
+    <text x="286" y="28" font-style="italic">H₁</text>
+    <text x="286" y="84" font-style="italic">H₀</text>
+  </g>
+</svg>

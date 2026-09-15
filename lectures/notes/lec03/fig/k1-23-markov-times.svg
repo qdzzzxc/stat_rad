@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 70" font-family="Georgia, serif" font-size="14" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k1a23" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="20" y1="32" x2="300" y2="32" marker-end="url(#k1a23)"/>
+  <g class="acc" stroke="#2b59c3" stroke-width="2"><line x1="90" y1="24" x2="90" y2="40"/><line x1="160" y1="24" x2="160" y2="40"/><line x1="230" y1="24" x2="230" y2="40"/></g>
+  <g fill="currentColor" stroke="none" font-style="italic" text-anchor="middle">
+    <text x="90" y="60">t<tspan font-size="10" dy="3">i</tspan></text>
+    <text x="160" y="60">t<tspan font-size="10" dy="3">j</tspan></text>
+    <text x="230" y="60">t<tspan font-size="10" dy="3">k</tspan></text>
+    <text x="304" y="52">t</text>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 185" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k4a06" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="20" y1="150" x2="326" y2="150" marker-end="url(#k4a06)"/>
+  <line x1="165" y1="160" x2="165" y2="12" marker-end="url(#k4a06)"/>
+  <line x1="285" y1="150" x2="285" y2="20" stroke-width="1" stroke-dasharray="4 4" opacity=".6"/>
+  <path stroke-dasharray="5 4" d="M165 150C158 90 150 55 130 55C90 55 70 140 45 150"/>
+  <path d="M165 150C172 90 180 55 200 55C240 55 260 140 285 150"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M165 150C190 140 210 55 250 55C270 55 278 90 285 150"/>
+  <line x1="104" y1="46" x2="118" y2="58" stroke-width="1"/>
+  <g fill="currentColor" stroke="none">
+    <text x="70" y="42" font-style="italic">s(−t)</text>
+    <text x="176" y="42" font-style="italic">s(t)</text>
+    <text x="244" y="42" font-style="italic">h(t)</text>
+    <text x="45" y="168" text-anchor="middle" font-style="italic">−T</text>
+    <text x="159" y="168" text-anchor="end">0</text>
+    <text x="285" y="168" text-anchor="middle" font-style="italic">T</text>
+    <text x="320" y="168" text-anchor="middle" font-style="italic">t</text>
+  </g>
+</svg>

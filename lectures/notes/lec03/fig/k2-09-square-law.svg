@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs>
+    <marker id="k2a09" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker>
+    <marker id="k2a10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path class="accf" d="M0 0L10 5L0 10z" fill="#2b59c3" stroke="none"/></marker>
+  </defs>
+  <!-- характеристика -->
+  <line x1="30" y1="100" x2="300" y2="100" marker-end="url(#k2a09)"/>
+  <line x1="160" y1="110" x2="160" y2="10" marker-end="url(#k2a09)"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M40 100H160Q220 98 250 20"/>
+  <text x="168" y="22" fill="currentColor" stroke="none" font-style="italic">η</text>
+  <text x="296" y="118" fill="currentColor" stroke="none" font-style="italic">ξ</text>
+  <!-- W(xi) -->
+  <path d="M40 210C80 210 100 150 160 150V210Z" fill="currentColor" fill-opacity=".14" stroke="none"/>
+  <line x1="30" y1="210" x2="300" y2="210" marker-end="url(#k2a09)"/>
+  <line x1="160" y1="215" x2="160" y2="130" marker-end="url(#k2a09)"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M40 208C80 208 100 150 160 150C220 150 240 208 280 208"/>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="168" y="142">W(ξ)</text>
+    <text x="296" y="228">ξ</text>
+    <text x="118" y="196">S</text>
+  </g>
+  <!-- W(eta) -->
+  <line x1="30" y1="340" x2="300" y2="340" marker-end="url(#k2a09)"/>
+  <line x1="160" y1="345" x2="160" y2="250" marker-end="url(#k2a09)"/>
+  <line class="acc" x1="160" y1="340" x2="160" y2="268" stroke="#2b59c3" stroke-width="2.6" marker-end="url(#k2a10)"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M166 272C172 310 200 332 280 337"/>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="176" y="262">W(η)</text>
+    <text x="296" y="358">η</text>
+    <text x="96" y="286" font-style="normal" font-size="12">½·δ(η)</text>
+  </g>
+</svg>

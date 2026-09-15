@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k6a15" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="40" y1="100" x2="290" y2="100" marker-end="url(#k6a15)"/>
+  <line x1="150" y1="188" x2="150" y2="12" marker-end="url(#k6a15)"/>
+  <ellipse class="acc" cx="150" cy="100" rx="76" ry="70" stroke="#2b59c3" stroke-width="2"/>
+  <ellipse class="acc" cx="150" cy="100" rx="34" ry="22" stroke="#2b59c3" stroke-width="2"/>
+  <line x1="214" y1="62" x2="232" y2="48" stroke-width="1"/>
+  <line x1="172" y1="116" x2="222" y2="160" stroke-width="1"/>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="158" y="22">τ</text>
+    <text x="290" y="120">Ω</text>
+    <text x="234" y="46">ρ = 0,1</text>
+    <text x="224" y="174">ρ = 0,5</text>
+  </g>
+</svg>

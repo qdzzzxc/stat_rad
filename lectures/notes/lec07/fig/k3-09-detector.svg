@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" font-family="Georgia, serif" font-size="14" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k3a09" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="20" y1="45" x2="108" y2="45" marker-end="url(#k3a09)"/>
+  <rect class="acc" stroke="#2b59c3" x="110" y="22" width="90" height="46" rx="4"/>
+  <line x1="200" y1="45" x2="300" y2="45" marker-end="url(#k3a09)"/>
+  <g fill="currentColor" stroke="none">
+    <text x="45" y="36" font-style="italic">u(t)</text>
+    <text x="155" y="50" text-anchor="middle" font-size="12">приёмник</text>
+  </g>
+</svg>

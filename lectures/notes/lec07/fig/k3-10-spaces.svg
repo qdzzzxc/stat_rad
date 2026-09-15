@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 165" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k3a10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <!-- S, N и способ взаимодействия -->
+  <circle cx="40" cy="50" r="28"/>
+  <circle cx="40" cy="126" r="28"/>
+  <circle cx="115" cy="88" r="16"/>
+  <line x1="64" y1="64" x2="101" y2="80" marker-end="url(#k3a10)"/>
+  <line x1="64" y1="112" x2="101" y2="96" marker-end="url(#k3a10)"/>
+  <line x1="131" y1="88" x2="166" y2="88" marker-end="url(#k3a10)"/>
+  <!-- пространство U -->
+  <circle cx="210" cy="88" r="42"/>
+  <path stroke-width="1.2" d="M172 104C190 96 200 92 210 90C222 88 238 92 250 102M210 90L208 46"/>
+  <!-- пространство Γ -->
+  <circle cx="298" cy="88" r="36"/>
+  <path stroke-width="1.2" d="M262 88H334M298 88L300 124"/>
+  <!-- соответствие областей решениям -->
+  <g class="acc" stroke="#2b59c3" stroke-width="1.2" stroke-dasharray="4 3">
+    <path d="M232 68C250 58 262 60 278 68" marker-end="url(#k3a10)"/>
+    <path d="M222 114C245 122 262 118 276 108" marker-end="url(#k3a10)"/>
+  </g>
+  <g fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="40" y="55" font-style="italic" font-size="15">S</text>
+    <text x="40" y="131" font-style="italic" font-size="15">N</text>
+    <text x="115" y="93">∗</text>
+    <text x="210" y="38" font-style="italic" font-size="15">U</text>
+    <text x="298" y="44" font-style="italic" font-size="15">Γ</text>
+    <text x="189" y="80" font-style="italic" text-decoration="overline">u₁</text>
+    <text x="226" y="82" font-style="italic" text-decoration="overline">u₂</text>
+    <text x="206" y="118" font-style="italic" text-decoration="overline">u₃</text>
+    <text x="294" y="78" font-style="italic">γ₁</text>
+    <text x="283" y="108" font-style="italic">γ₂</text>
+    <text x="316" y="108" font-style="italic">γ₃</text>
+  </g>
+</svg>

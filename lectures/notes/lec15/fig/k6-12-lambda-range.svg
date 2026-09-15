@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 70" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <line x1="30" y1="25" x2="290" y2="25"/>
+  <g class="acc" stroke="#2b59c3">
+    <line x1="40" y1="18" x2="40" y2="32"/><line x1="70" y1="18" x2="70" y2="32"/>
+    <line x1="100" y1="18" x2="100" y2="32"/><line x1="130" y1="18" x2="130" y2="32"/>
+    <line x1="160" y1="18" x2="160" y2="32"/><line x1="190" y1="18" x2="190" y2="32"/>
+    <line x1="220" y1="18" x2="220" y2="32"/><line x1="250" y1="18" x2="250" y2="32"/>
+  </g>
+  <g fill="currentColor" stroke="none" font-style="italic" text-anchor="middle">
+    <text x="40" y="54">λ<tspan dy="3" font-size="10">min</tspan></text>
+    <text x="250" y="54">λ<tspan dy="3" font-size="10">max</tspan></text>
+  </g>
+</svg>

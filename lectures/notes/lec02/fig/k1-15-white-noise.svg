@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs>
+    <marker id="k1a15" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker>
+    <marker id="k1a15b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path class="accf" d="M0 0L10 5L0 10z" fill="#2b59c3" stroke="none"/></marker>
+  </defs>
+  <line x1="20" y1="110" x2="308" y2="110" marker-end="url(#k1a15)"/>
+  <line x1="160" y1="150" x2="160" y2="12" marker-end="url(#k1a15)"/>
+  <line class="acc" x1="160" y1="110" x2="160" y2="34" stroke="#2b59c3" stroke-width="3" marker-end="url(#k1a15b)"/>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="168" y="22">R<tspan font-size="10" dy="4">ξ</tspan><tspan dy="-4">(τ)</tspan></text>
+    <text x="304" y="128">τ</text>
+    <text x="172" y="60">N₀/2 · δ(τ)</text>
+  </g>
+</svg>

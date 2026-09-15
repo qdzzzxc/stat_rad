@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 165" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k1a05" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="30" y1="135" x2="308" y2="135" marker-end="url(#k1a05)"/>
+  <line x1="30" y1="135" x2="30" y2="20" marker-end="url(#k1a05)"/>
+  <!-- фиксированные уровни -->
+  <g stroke-width="1" stroke-dasharray="3 4" opacity=".5">
+    <line x1="30" y1="115" x2="250" y2="115"/><line x1="30" y1="95" x2="250" y2="95"/>
+    <line x1="30" y1="75" x2="250" y2="75"/><line x1="30" y1="55" x2="250" y2="55"/>
+  </g>
+  <g><line x1="25" y1="115" x2="35" y2="115"/><line x1="25" y1="95" x2="35" y2="95"/><line x1="25" y1="75" x2="35" y2="75"/><line x1="25" y1="55" x2="35" y2="55"/></g>
+  <g class="acc" stroke="#2b59c3" stroke-width="2">
+    <line x1="65" y1="135" x2="65" y2="95"/><line x1="100" y1="135" x2="100" y2="75"/>
+    <line x1="135" y1="135" x2="135" y2="115"/><line x1="170" y1="135" x2="170" y2="55"/>
+    <line x1="205" y1="135" x2="205" y2="75"/>
+  </g>
+  <g class="accf" fill="#2b59c3" stroke="none">
+    <circle cx="65" cy="95" r="3.5"/><circle cx="100" cy="75" r="3.5"/><circle cx="135" cy="115" r="3.5"/>
+    <circle cx="170" cy="55" r="3.5"/><circle cx="205" cy="75" r="3.5"/>
+  </g>
+  <line x1="38" y1="50" x2="70" y2="28" stroke-width="1"/>
+  <g fill="currentColor" stroke="none">
+    <text x="74" y="26" font-size="12">число значений фиксировано</text>
+    <g font-style="italic" text-anchor="middle"><text x="65" y="153">t₁</text><text x="100" y="153">t₂</text><text x="135" y="153">t₃</text></g>
+    <text x="304" y="153" font-style="italic">t</text>
+  </g>
+</svg>

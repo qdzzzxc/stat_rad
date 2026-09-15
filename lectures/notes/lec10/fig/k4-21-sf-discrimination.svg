@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 190" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k4a21" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="6" y1="95" x2="40" y2="95"/>
+  <line x1="40" y1="50" x2="40" y2="140"/>
+  <line x1="40" y1="50" x2="58" y2="50" marker-end="url(#k4a21)"/>
+  <rect x="60" y="35" width="50" height="30" rx="2"/>
+  <line x1="40" y1="140" x2="58" y2="140" marker-end="url(#k4a21)"/>
+  <rect x="60" y="125" width="50" height="30" rx="2"/>
+  <path d="M110 50H160V81" marker-end="url(#k4a21)"/>
+  <path d="M110 140H160V109" marker-end="url(#k4a21)"/>
+  <rect x="148" y="83" width="24" height="24" rx="2"/>
+  <line x1="172" y1="95" x2="206" y2="95" marker-end="url(#k4a21)"/>
+  <rect x="208" y="80" width="38" height="30" rx="2"/>
+  <line x1="227" y1="150" x2="227" y2="112" marker-end="url(#k4a21)"/>
+  <line class="acc" stroke="#2b59c3" x1="246" y1="95" x2="276" y2="78" marker-end="url(#k4a21)"/>
+  <line class="acc" stroke="#2b59c3" x1="246" y1="95" x2="276" y2="112" marker-end="url(#k4a21)"/>
+  <g fill="currentColor" stroke="none">
+    <text x="6" y="87" font-style="italic">u(t)</text>
+    <text x="85" y="55" text-anchor="middle">СФ</text>
+    <text x="85" y="145" text-anchor="middle">СФ</text>
+    <text x="85" y="22" text-anchor="middle" font-size="12" font-style="italic">h(t) = s₁(t₀ − t)</text>
+    <text x="85" y="178" text-anchor="middle" font-size="12" font-style="italic">h(t) = s₀(t₀ − t)</text>
+    <text x="166" y="74" font-size="12">+</text>
+    <text x="166" y="127" font-size="12">−</text>
+    <text x="160" y="100" text-anchor="middle" font-size="14">Σ</text>
+    <text x="189" y="88" text-anchor="middle" font-style="italic">q</text>
+    <text x="227" y="100" text-anchor="middle" font-size="12">ПУ</text>
+    <text x="233" y="146" font-style="italic">c</text>
+    <text x="280" y="78" font-style="italic">s₁</text>
+    <text x="280" y="122" font-style="italic">s₀</text>
+  </g>
+</svg>

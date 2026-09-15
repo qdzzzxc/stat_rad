@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 200" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k4a03" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <path class="accf" fill="#2b59c3" fill-opacity=".14" stroke="none" d="M150 150L150 120C158 95 170 45 200 45C230 45 240 149 290 149L290 150Z"/>
+  <path class="accf" fill="#2b59c3" fill-opacity=".5" stroke="none" d="M150 150L150 120C160 138 172 148 190 149L190 150Z"/>
+  <line x1="10" y1="150" x2="318" y2="150" marker-end="url(#k4a03)"/>
+  <line x1="100" y1="160" x2="100" y2="12" marker-end="url(#k4a03)"/>
+  <line x1="200" y1="45" x2="200" y2="150" stroke-width="1" stroke-dasharray="4 4" opacity=".6"/>
+  <line x1="150" y1="150" x2="150" y2="28" stroke-width="1.8"/>
+  <path d="M15 149C60 149 70 45 100 45C130 45 140 149 190 149"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M110 149C160 149 170 45 200 45C230 45 240 149 290 149"/>
+  <line x1="163" y1="178" x2="162" y2="146" stroke-width="1"/>
+  <line x1="246" y1="178" x2="232" y2="128" stroke-width="1"/>
+  <g fill="currentColor" stroke="none">
+    <text x="18" y="40" font-style="italic">W(q|H₀)</text>
+    <text x="232" y="40" font-style="italic">W(q|H₁)</text>
+    <text x="100" y="167" text-anchor="middle">0</text>
+    <text x="146" y="167" text-anchor="end" font-style="italic">z₀</text>
+    <text x="203" y="167" font-size="12" font-style="italic">2E/N₀</text>
+    <text x="312" y="167" text-anchor="middle" font-style="italic">q</text>
+    <text x="165" y="192" text-anchor="middle" font-style="italic">α</text>
+    <text x="250" y="192" text-anchor="middle" font-style="italic">D</text>
+  </g>
+</svg>

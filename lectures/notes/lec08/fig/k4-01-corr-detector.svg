@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 120" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k4a01" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="6" y1="50" x2="58" y2="50" marker-end="url(#k4a01)"/>
+  <rect x="60" y="32" width="36" height="36" rx="3"/>
+  <line x1="78" y1="108" x2="78" y2="70" marker-end="url(#k4a01)"/>
+  <line x1="96" y1="50" x2="150" y2="50" marker-end="url(#k4a01)"/>
+  <rect x="152" y="28" width="58" height="44" rx="3"/>
+  <line x1="210" y1="50" x2="248" y2="50" marker-end="url(#k4a01)"/>
+  <rect x="250" y="32" width="44" height="36" rx="3"/>
+  <line x1="272" y1="108" x2="272" y2="70" marker-end="url(#k4a01)"/>
+  <line class="acc" stroke="#2b59c3" x1="294" y1="50" x2="320" y2="32" marker-end="url(#k4a01)"/>
+  <line class="acc" stroke="#2b59c3" x1="294" y1="50" x2="320" y2="68" marker-end="url(#k4a01)"/>
+  <g fill="currentColor" stroke="none">
+    <text x="10" y="42" font-style="italic">u(t)</text>
+    <text x="78" y="56" text-anchor="middle" font-size="17">×</text>
+    <text x="84" y="104" font-style="italic">s(t)</text>
+    <text x="123" y="42" text-anchor="middle" font-size="11" font-style="italic">u(t)·s(t)</text>
+    <text x="178" y="55" text-anchor="middle" font-size="12">2/N₀ ∫</text>
+    <text x="200" y="40" font-size="9" font-style="italic">T</text>
+    <text x="196" y="66" font-size="9">0</text>
+    <text x="229" y="42" text-anchor="middle" font-style="italic">q</text>
+    <text x="272" y="55" text-anchor="middle">ПУ</text>
+    <text x="278" y="104" font-style="italic">z₀</text>
+    <text x="316" y="24" font-style="italic">H₁</text>
+    <text x="316" y="86" font-style="italic">H₀</text>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k1a09" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="20" y1="95" x2="308" y2="95" marker-end="url(#k1a09)"/>
+  <line x1="40" y1="170" x2="40" y2="10" marker-end="url(#k1a09)"/>
+  <!-- скачки (разрывы 1-го рода) -->
+  <g stroke-width="1" stroke-dasharray="4 4" opacity=".6">
+    <line x1="120" y1="45" x2="120" y2="150"/><line x1="200" y1="55" x2="200" y2="125"/>
+  </g>
+  <g class="acc" stroke="#2b59c3" stroke-width="2.2">
+    <path d="M40 65C50 55 56 70 64 62S76 58 84 64S100 50 108 56S116 50 120 45"/>
+    <path d="M120 150C130 140 136 138 142 130S150 126 156 112S168 106 172 94S184 84 190 70S198 62 200 55"/>
+    <path d="M200 125C206 118 212 110 218 96S232 80 240 68S256 56 266 44S284 32 296 26"/>
+  </g>
+  <g class="accf" fill="#2b59c3" stroke="none">
+    <circle cx="120" cy="45" r="3"/><circle cx="200" cy="55" r="3"/>
+  </g>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="304" y="112">t</text>
+    <text x="48" y="20">ξ(t)</text>
+  </g>
+</svg>

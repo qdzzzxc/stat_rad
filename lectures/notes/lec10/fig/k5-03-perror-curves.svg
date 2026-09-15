@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 240" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k5a03" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="60" y1="200" x2="300" y2="200" marker-end="url(#k5a03)"/>
+  <line x1="60" y1="200" x2="60" y2="14" marker-end="url(#k5a03)"/>
+  <g stroke-width="1.2">
+    <line x1="56" y1="40" x2="64" y2="40"/><line x1="56" y1="72" x2="64" y2="72"/>
+    <line x1="56" y1="104" x2="64" y2="104"/><line x1="56" y1="136" x2="64" y2="136"/>
+    <line x1="56" y1="168" x2="64" y2="168"/>
+    <line x1="120" y1="196" x2="120" y2="204"/><line x1="180" y1="196" x2="180" y2="204"/>
+    <line x1="240" y1="196" x2="240" y2="204"/>
+  </g>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M62 26C80 90 110 160 135 200"/>
+  <path stroke-width="1.8" d="M62 26C95 90 150 160 190 200"/>
+  <path stroke-width="1.8" stroke-dasharray="6 3" d="M62 26C110 90 190 160 250 200"/>
+  <g stroke-width="1">
+    <line x1="104" y1="118" x2="128" y2="92"/>
+    <line x1="150" y1="138" x2="176" y2="112"/>
+    <line x1="210" y1="160" x2="236" y2="136"/>
+  </g>
+  <g fill="currentColor" stroke="none">
+    <text x="130" y="90">ФМ</text>
+    <text x="178" y="110">ЧМ</text>
+    <text x="238" y="134">АМ</text>
+    <g font-size="11" text-anchor="end">
+      <text x="52" y="44">10<tspan dy="-5" font-size="8">−1</tspan></text>
+      <text x="52" y="76">10<tspan dy="-5" font-size="8">−2</tspan></text>
+      <text x="52" y="108">10<tspan dy="-5" font-size="8">−3</tspan></text>
+      <text x="52" y="140">10<tspan dy="-5" font-size="8">−4</tspan></text>
+      <text x="52" y="172">10<tspan dy="-5" font-size="8">−5</tspan></text>
+      <text x="52" y="204">10<tspan dy="-5" font-size="8">−6</tspan></text>
+    </g>
+    <g font-size="11" text-anchor="middle">
+      <text x="120" y="218">20</text><text x="180" y="218">40</text><text x="240" y="218">60</text>
+    </g>
+    <text x="68" y="18" font-style="italic">P<tspan dy="3" font-size="10" font-style="normal">ош</tspan></text>
+    <text x="304" y="222" font-style="italic" text-anchor="middle">2E</text>
+    <line x1="292" y1="226" x2="316" y2="226" stroke="currentColor" stroke-width="1"/>
+    <text x="304" y="238" font-style="italic" text-anchor="middle">N₀</text>
+  </g>
+</svg>

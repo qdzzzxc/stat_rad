@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k6a03" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <rect class="accf" x="70" y="76" width="25" height="34" fill="#2b59c3" stroke="none" opacity=".3"/>
+  <line x1="10" y1="110" x2="305" y2="110" marker-end="url(#k6a03)"/>
+  <line x1="40" y1="172" x2="40" y2="16" marker-end="url(#k6a03)"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="1.8" d="M40 85L50 80L58 88L66 76L74 72L80 80L88 76L95 90L102 118L110 130L120 124L130 134L140 126L150 132L160 120L168 100L176 90L184 70L192 60L200 72L208 58L216 66L224 80L232 95L240 112L250 130L262 124L275 138L290 132"/>
+  <g stroke-width="1.2">
+    <line x1="70" y1="105" x2="70" y2="115"/><line x1="95" y1="105" x2="95" y2="115"/>
+    <line x1="120" y1="105" x2="120" y2="115"/><line x1="145" y1="105" x2="145" y2="115"/>
+    <line x1="170" y1="105" x2="170" y2="115"/><line x1="195" y1="105" x2="195" y2="115"/>
+  </g>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="48" y="26">n<tspan dy="-5" font-size="9">(k)</tspan><tspan dy="5">(t)</tspan></text>
+    <text x="80" y="66" text-anchor="middle">n<tspan dy="3" font-size="10">i</tspan></text>
+    <text x="64" y="160" text-anchor="middle" font-size="12">t<tspan dy="3" font-size="9">i</tspan></text>
+    <text x="100" y="160" text-anchor="middle" font-size="12">t<tspan dy="3" font-size="9">i+1</tspan></text>
+    <text x="150" y="160" text-anchor="middle" font-size="12">…</text>
+    <text x="198" y="160" text-anchor="middle" font-size="12">t<tspan dy="3" font-size="9">n</tspan></text>
+    <text x="302" y="130">t</text>
+  </g>
+</svg>

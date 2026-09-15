@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 190" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k2a20" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="25" y1="100" x2="305" y2="100" marker-end="url(#k2a20)"/>
+  <line x1="30" y1="180" x2="30" y2="10" marker-end="url(#k2a20)"/>
+  <g stroke-width="1.2" stroke-dasharray="5 4" opacity=".7">
+    <path d="M35 55C80 30 120 40 150 60C180 78 210 35 250 30C275 28 290 45 300 55"/>
+    <path d="M35 145C80 170 120 160 150 140C180 122 210 165 250 170C275 172 290 155 300 145"/>
+  </g>
+  <path class="acc" stroke="#2b59c3" stroke-width="1.6" stroke-linejoin="round" d="M35 100L40 57L48 143L56 50L64 152L72 44L80 157L88 42L96 158L104 45L112 154L120 49L128 150L136 55L144 143L152 61L160 138L168 62L176 136L184 56L192 142L200 47L208 152L216 39L224 160L232 33L240 166L248 31L256 169L264 32L272 167L280 38L288 160L296 50L300 100"/>
+  <line x1="152" y1="58" x2="170" y2="30" stroke-width="1"/>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="38" y="20">ξ(t)</text>
+    <text x="300" y="120">t</text>
+    <text x="172" y="26">A(t)</text>
+  </g>
+</svg>

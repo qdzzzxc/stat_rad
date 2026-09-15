@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 240" font-family="Georgia, serif" font-size="12" fill="none" stroke="currentColor" stroke-width="1.5" color="#1f2937">
+  <defs><marker id="k6a08" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="4" y1="115" x2="30" y2="115"/>
+  <line x1="30" y1="40" x2="30" y2="190"/>
+  <line x1="30" y1="40" x2="58" y2="40" marker-end="url(#k6a08)"/>
+  <line x1="30" y1="115" x2="58" y2="115" marker-end="url(#k6a08)"/>
+  <line x1="30" y1="190" x2="58" y2="190" marker-end="url(#k6a08)"/>
+  <rect x="60" y="26" width="28" height="28" rx="3"/>
+  <rect x="60" y="101" width="28" height="28" rx="3"/>
+  <rect x="60" y="176" width="28" height="28" rx="3"/>
+  <line x1="74" y1="74" x2="74" y2="56" marker-end="url(#k6a08)"/>
+  <line x1="74" y1="149" x2="74" y2="131" marker-end="url(#k6a08)"/>
+  <line x1="74" y1="224" x2="74" y2="206" marker-end="url(#k6a08)"/>
+  <line x1="88" y1="40" x2="108" y2="40" marker-end="url(#k6a08)"/>
+  <line x1="88" y1="115" x2="108" y2="115" marker-end="url(#k6a08)"/>
+  <line x1="88" y1="190" x2="108" y2="190" marker-end="url(#k6a08)"/>
+  <rect class="acc" x="110" y="26" width="32" height="28" rx="3" stroke="#2b59c3"/>
+  <rect class="acc" x="110" y="101" width="32" height="28" rx="3" stroke="#2b59c3"/>
+  <rect class="acc" x="110" y="176" width="32" height="28" rx="3" stroke="#2b59c3"/>
+  <path d="M142 40H184V90H198" marker-end="url(#k6a08)"/>
+  <line x1="142" y1="115" x2="198" y2="115" marker-end="url(#k6a08)"/>
+  <path d="M142 190H184V140H198" marker-end="url(#k6a08)"/>
+  <rect x="200" y="70" width="64" height="90" rx="3"/>
+  <line x1="264" y1="115" x2="292" y2="115" marker-end="url(#k6a08)"/>
+  <g fill="currentColor" stroke="none">
+    <circle cx="126" cy="156" r="1.3"/><circle cx="126" cy="162" r="1.3"/><circle cx="126" cy="168" r="1.3"/>
+  </g>
+  <g fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="6" y="106" font-style="italic" text-anchor="start">u(t)</text>
+    <text x="74" y="46" font-size="16">×</text>
+    <text x="74" y="121" font-size="16">×</text>
+    <text x="74" y="196" font-size="16">×</text>
+    <text x="124" y="46" font-size="15">∫</text><text x="134" y="52" font-size="8">0</text><text x="134" y="34" font-size="8">T</text>
+    <text x="124" y="121" font-size="15">∫</text><text x="134" y="127" font-size="8">0</text><text x="134" y="109" font-size="8">T</text>
+    <text x="124" y="196" font-size="15">∫</text><text x="134" y="202" font-size="8">0</text><text x="134" y="184" font-size="8">T</text>
+    <g font-style="italic" font-size="11" text-anchor="start">
+      <text x="80" y="72">s(t, λ<tspan dy="3" font-size="8">1</tspan><tspan dy="-3">)</tspan></text>
+      <text x="80" y="147">s(t, λ<tspan dy="3" font-size="8">i</tspan><tspan dy="-3">)</tspan></text>
+      <text x="80" y="222">s(t, λ<tspan dy="3" font-size="8">n</tspan><tspan dy="-3">)</tspan></text>
+      <text x="148" y="33">q(λ<tspan dy="3" font-size="8">1</tspan><tspan dy="-3">)</tspan></text>
+      <text x="148" y="109">q(λ<tspan dy="3" font-size="8">i</tspan><tspan dy="-3">)</tspan></text>
+      <text x="148" y="184">q(λ<tspan dy="3" font-size="8">n</tspan><tspan dy="-3">)</tspan></text>
+    </g>
+    <text x="232" y="96" font-size="13">РУ</text>
+    <text x="232" y="114" font-size="10">(схема</text>
+    <text x="232" y="128" font-size="10">выбора</text>
+    <text x="232" y="142" font-size="10">max)</text>
+    <text x="300" y="110" font-size="11">^</text>
+    <text x="296" y="119" font-style="italic" text-anchor="start">λ = λ<tspan dy="3" font-size="9">l</tspan></text>
+    <g font-style="italic" font-size="11" text-anchor="start">
+      <text x="200" y="186">q(λ<tspan dy="3" font-size="8">l</tspan><tspan dy="-3">) &gt; q(λ</tspan><tspan dy="3" font-size="8">i</tspan><tspan dy="-3">),</tspan></text>
+      <text x="200" y="204">i = 1, 2, …, n,  i ≠ l</text>
+    </g>
+  </g>
+</svg>

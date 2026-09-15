@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 235" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k4a12" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="30" y1="110" x2="318" y2="110" marker-end="url(#k4a12)"/>
+  <line x1="30" y1="114" x2="30" y2="10" marker-end="url(#k4a12)"/>
+  <path stroke-width="1" stroke-dasharray="3 4" opacity=".7" d="M36 28Q56 30 72 52Q92 80 118 108Q170 88 230 104Q260 110 300 110"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="1.8" d="M31 110C32 20 40 20 41 110M67 110C68 45 76 45 77 110M103 110C104 78 112 78 113 110M128 110C129 99 135 99 136 110M146 110C147 95 153 95 154 110M164 110C165 93 171 93 172 110M182 110C183 95 189 95 190 110M200 110C201 98 207 98 208 110M218 110C219 103 225 103 226 110"/>
+  <line x1="30" y1="195" x2="318" y2="195" marker-end="url(#k4a12)"/>
+  <line x1="30" y1="199" x2="30" y2="125" marker-end="url(#k4a12)"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M30 140H80V195"/>
+  <line x1="30" y1="212" x2="78" y2="212" stroke-width="1.2" marker-end="url(#k4a12)"/>
+  <g fill="currentColor" stroke="none">
+    <text x="38" y="20" font-style="italic">|K(jω)|</text>
+    <text x="312" y="127" text-anchor="middle" font-style="italic">ω</text>
+    <text x="38" y="135" font-style="italic">|K(jω)|</text>
+    <text x="86" y="217" font-style="italic">Δω<tspan font-size="9" dy="3" font-style="normal">опт</tspan></text>
+    <text x="312" y="212" text-anchor="middle" font-style="italic">ω</text>
+  </g>
+</svg>

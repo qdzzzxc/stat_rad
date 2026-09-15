@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 215" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k3a15" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <!-- вход и блок вычисления l(u) -->
+  <line x1="8" y1="100" x2="48" y2="100" marker-end="url(#k3a15)"/>
+  <rect x="50" y="74" width="76" height="52" rx="4"/>
+  <line x1="126" y1="100" x2="142" y2="100"/>
+  <!-- переключатель -->
+  <circle cx="145" cy="100" r="3"/>
+  <line x1="147" y1="97" x2="169" y2="63"/>
+  <line x1="147" y1="103" x2="169" y2="137"/>
+  <circle cx="171" cy="60" r="3"/>
+  <circle cx="171" cy="140" r="3"/>
+  <!-- однопороговое ПУ -->
+  <line x1="174" y1="60" x2="188" y2="60" marker-end="url(#k3a15)"/>
+  <rect x="190" y="40" width="52" height="40" rx="4"/>
+  <line x1="216" y1="8" x2="216" y2="38" marker-end="url(#k3a15)"/>
+  <line x1="242" y1="52" x2="272" y2="34" marker-end="url(#k3a15)"/>
+  <line x1="242" y1="68" x2="272" y2="86" marker-end="url(#k3a15)"/>
+  <!-- двухпороговое ПУ -->
+  <line x1="174" y1="140" x2="188" y2="140" marker-end="url(#k3a15)"/>
+  <rect class="acc" stroke="#2b59c3" x="190" y="120" width="52" height="40" rx="4"/>
+  <line x1="206" y1="194" x2="206" y2="162" marker-end="url(#k3a15)"/>
+  <line x1="226" y1="194" x2="226" y2="162" marker-end="url(#k3a15)"/>
+  <line x1="242" y1="130" x2="272" y2="112" marker-end="url(#k3a15)"/>
+  <line x1="242" y1="140" x2="272" y2="140" marker-end="url(#k3a15)"/>
+  <line x1="242" y1="150" x2="272" y2="168" marker-end="url(#k3a15)"/>
+  <g fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="26" y="90" font-style="italic">u(t)</text>
+    <text x="88" y="94" font-size="11">Блок</text>
+    <text x="88" y="107" font-size="10">вычисления</text>
+    <text x="88" y="120" font-size="11" font-style="italic">l(u)</text>
+    <text x="216" y="65">ПУ</text>
+    <text x="216" y="145">ПУ</text>
+    <text x="206" y="209" font-style="italic">A</text>
+    <text x="226" y="209" font-style="italic">B</text>
+  </g>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="224" y="20">C</text>
+    <text x="276" y="36">H₁</text>
+    <text x="276" y="92">H₀</text>
+    <text x="276" y="114">H₁</text>
+    <text x="276" y="145">γ₂ <tspan font-style="normal" font-size="11">(неопред.)</tspan></text>
+    <text x="276" y="176">H₀</text>
+  </g>
+</svg>

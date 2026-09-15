@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 300" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k2a15" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="30" y1="130" x2="300" y2="130" marker-end="url(#k2a15)"/>
+  <line x1="160" y1="135" x2="160" y2="12" marker-end="url(#k2a15)"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M70 30Q160 230 250 30"/>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="168" y="24">η</text>
+    <text x="296" y="150">ξ</text>
+  </g>
+  <line x1="30" y1="280" x2="300" y2="280" marker-end="url(#k2a15)"/>
+  <line x1="90" y1="285" x2="90" y2="170" marker-end="url(#k2a15)"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M95 185C96 230 110 262 150 270C190 276 240 277 280 278"/>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="100" y="180">W(η)</text>
+    <text x="296" y="298">η</text>
+    <text x="80" y="296">0</text>
+  </g>
+</svg>

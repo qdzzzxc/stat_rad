@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 218" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k4a19" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="45" y1="35" x2="312" y2="35" stroke-width="1" stroke-dasharray="4 4" opacity=".6"/>
+  <line x1="40" y1="165" x2="318" y2="165" marker-end="url(#k4a19)"/>
+  <line x1="45" y1="170" x2="45" y2="10" marker-end="url(#k4a19)"/>
+  <path stroke-width="1.2" d="M105 161V169M165 161V169M225 161V169M285 161V169"/>
+  <g class="acc" stroke="#2b59c3" stroke-width="2.2">
+    <path d="M45 164C80 164 95 130 110 100C125 70 140 36 185 35L300 35"/>
+    <path d="M45 164C125 164 140 130 155 100C170 70 185 36 230 35L300 35"/>
+    <path d="M45 164C170 164 185 130 200 100C215 70 230 36 275 35L300 35"/>
+  </g>
+  <g stroke-dasharray="5 4">
+    <path d="M45 164C95 150 130 70 200 52C240 42 280 39 310 38"/>
+    <path d="M45 164C125 156 165 88 235 64C265 54 290 50 310 48"/>
+    <path d="M45 164C150 158 200 108 260 82C285 72 300 68 310 66"/>
+  </g>
+  <path stroke-width="1" d="M148 30L138 53M210 18L183 53M262 30L229 53"/>
+  <line stroke-dasharray="5 4" x1="60" y1="208" x2="92" y2="208"/>
+  <g fill="currentColor" stroke="none">
+    <text x="53" y="18" font-style="italic">D</text>
+    <g font-size="11" text-anchor="middle">
+      <text x="105" y="182">2</text>
+      <text x="165" y="182">4</text>
+      <text x="225" y="182">6</text>
+      <text x="285" y="182">8</text>
+    </g>
+    <g font-size="11" font-style="italic" text-anchor="middle">
+      <text x="150" y="26">α=10<tspan dy="-5" font-size="8">−4</tspan></text>
+      <text x="214" y="13">α=10<tspan dy="-5" font-size="8">−6</tspan></text>
+      <text x="270" y="26">α=10<tspan dy="-5" font-size="8">−8</tspan></text>
+    </g>
+    <text x="320" y="197" text-anchor="end" font-size="12" font-style="italic">2E/N₀</text>
+    <text x="100" y="212" font-size="11">амплитуда «гуляет»</text>
+  </g>
+</svg>

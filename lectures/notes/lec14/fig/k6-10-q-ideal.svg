@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k6a10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="40" y1="130" x2="300" y2="130" marker-end="url(#k6a10)"/>
+  <line x1="40" y1="130" x2="40" y2="12" marker-end="url(#k6a10)"/>
+  <line x1="160" y1="130" x2="160" y2="35" stroke-width="1" stroke-dasharray="4 4" opacity=".6"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M45 120C100 118 120 35 160 35C200 35 220 118 275 120"/>
+  <line x1="196" y1="62" x2="210" y2="52" stroke-width="1"/>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="48" y="22">q</text>
+    <text x="160" y="148" text-anchor="middle">λ<tspan dy="3" font-size="10">0</tspan></text>
+    <text x="300" y="150">λ</text>
+    <text x="212" y="50">q<tspan dy="3" font-size="10">s</tspan><tspan dy="-3">(λ) = q(λ)</tspan></text>
+  </g>
+</svg>

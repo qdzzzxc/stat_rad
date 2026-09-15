@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k2a05" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="20" y1="80" x2="300" y2="80" marker-end="url(#k2a05)"/>
+  <line x1="160" y1="80" x2="160" y2="12" marker-end="url(#k2a05)"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M80 80V45H240V80"/>
+  <line x1="20" y1="200" x2="300" y2="200" marker-end="url(#k2a05)"/>
+  <line x1="160" y1="200" x2="160" y2="110" marker-end="url(#k2a05)"/>
+  <g stroke-width="1" stroke-dasharray="4 4" opacity=".6">
+    <line x1="80" y1="80" x2="80" y2="200"/>
+    <line x1="240" y1="80" x2="240" y2="200"/>
+  </g>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M80 125Q160 275 240 125"/>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="168" y="24">S<tspan font-size="10" dy="4">ξ</tspan><tspan dy="-4">(ω)</tspan></text>
+    <text x="296" y="98">ω</text>
+    <text x="168" y="124">ω<tspan dy="-5" font-size="9">2</tspan><tspan dy="5">S</tspan><tspan font-size="10" dy="4">ξ</tspan><tspan dy="-4">(ω)</tspan></text>
+    <text x="296" y="218">ω</text>
+    <text x="150" y="216">0</text>
+  </g>
+</svg>

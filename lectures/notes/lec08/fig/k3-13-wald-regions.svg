@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 172" font-family="Georgia, serif" font-size="14" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <ellipse cx="160" cy="80" rx="85" ry="62"/>
+  <g class="acc" stroke="#2b59c3" stroke-width="2">
+    <path d="M148 19C165 50 135 90 150 141"/>
+    <path d="M228 42C210 75 232 100 212 128"/>
+  </g>
+  <g stroke-width="1">
+    <line x1="62" y1="92" x2="104" y2="72"/>
+    <line x1="264" y1="76" x2="232" y2="82"/>
+    <line x1="176" y1="148" x2="184" y2="128"/>
+  </g>
+  <g fill="currentColor" stroke="none" font-style="italic" text-anchor="middle">
+    <text x="42" y="104">U₁</text>
+    <text x="42" y="122">(H₁)</text>
+    <text x="286" y="80">U₀</text>
+    <text x="286" y="98">(H₀)</text>
+    <text x="172" y="164">U<tspan dy="4" font-size="10" font-style="normal">неопр</tspan></text>
+    <text x="256" y="22" text-decoration="overline">U</text>
+  </g>
+</svg>

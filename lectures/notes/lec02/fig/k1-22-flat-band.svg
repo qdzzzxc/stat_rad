@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs>
+    <marker id="k1a22" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker>
+    <marker id="k1a22b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker>
+  </defs>
+  <line x1="30" y1="130" x2="308" y2="130" marker-end="url(#k1a22)"/>
+  <line x1="30" y1="130" x2="30" y2="12" marker-end="url(#k1a22)"/>
+  <!-- полоса цепи -->
+  <g stroke-width="1" stroke-dasharray="4 4" opacity=".7"><line x1="125" y1="130" x2="125" y2="66"/><line x1="215" y1="130" x2="215" y2="66"/></g>
+  <g stroke-width="1" opacity=".5"><line x1="135" y1="126" x2="143" y2="112"/><line x1="150" y1="126" x2="158" y2="112"/><line x1="165" y1="126" x2="173" y2="112"/><line x1="180" y1="126" x2="188" y2="112"/><line x1="195" y1="126" x2="203" y2="112"/></g>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M50 130C70 110 82 86 100 74S125 64 145 64H205C225 64 240 70 252 90S270 118 285 130"/>
+  <line x1="125" y1="46" x2="215" y2="46" stroke-width="1.2" marker-start="url(#k1a22b)" marker-end="url(#k1a22b)"/>
+  <line x1="50" y1="148" x2="285" y2="148" stroke-width="1.2" marker-start="url(#k1a22b)" marker-end="url(#k1a22b)"/>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="38" y="22">S(ω)</text>
+    <text x="304" y="124">ω</text>
+    <text x="170" y="36" text-anchor="middle">Δω<tspan font-size="10" dy="3">цеп</tspan></text>
+    <text x="168" y="170" text-anchor="middle">Δω<tspan font-size="10" dy="3">эфф</tspan></text>
+  </g>
+</svg>

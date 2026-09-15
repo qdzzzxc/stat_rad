@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 170" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k1a13" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="20" y1="130" x2="308" y2="130" marker-end="url(#k1a13)"/>
+  <line x1="160" y1="160" x2="160" y2="12" marker-end="url(#k1a13)"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M30 122C70 120 95 110 120 75S145 40 160 40S180 50 200 75S250 120 290 122"/>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="168" y="22">R<tspan font-size="10" dy="4">ξ</tspan><tspan dy="-4">(τ)</tspan></text>
+    <text x="304" y="148">τ</text>
+    <text x="165" y="148" font-style="normal">0</text>
+  </g>
+</svg>

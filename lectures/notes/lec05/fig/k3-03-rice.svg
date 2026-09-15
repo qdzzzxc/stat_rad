@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 190" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k3a03" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="30" y1="170" x2="318" y2="170" marker-end="url(#k3a03)"/>
+  <line x1="30" y1="170" x2="30" y2="12" marker-end="url(#k3a03)"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M30 170C60 150 80 60 115 60C150 60 165 110 200 140C230 162 260 165 300 166"/>
+  <path d="M30 170C70 160 100 105 150 105C190 105 205 125 230 145C255 160 280 163 300 164"/>
+  <path d="M30 170C80 166 110 138 150 138C190 138 210 150 240 158C265 163 285 164 300 165"/>
+  <g stroke-width="1">
+    <line x1="118" y1="45" x2="116" y2="58"/>
+    <line x1="215" y1="86" x2="198" y2="114"/>
+    <line x1="262" y1="104" x2="201" y2="144"/>
+    <line x1="238" y1="54" x2="228" y2="70"/>
+    <line x1="262" y1="54" x2="280" y2="86"/>
+  </g>
+  <g fill="currentColor" stroke="none">
+    <text x="94" y="24">Рэлея</text>
+    <text x="96" y="40" font-style="italic">A₀ = 0</text>
+    <text x="230" y="48">Райса</text>
+    <text x="200" y="83" font-style="italic">A₀′ &gt; 0</text>
+    <text x="258" y="100" font-style="italic" font-size="12">A₀″ &gt; A₀′</text>
+    <text x="310" y="186" font-style="italic">A</text>
+  </g>
+</svg>

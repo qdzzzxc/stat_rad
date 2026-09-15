@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k1a03" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <!-- n(t): флуктуационная помеха -->
+  <line x1="30" y1="105" x2="308" y2="105" marker-end="url(#k1a03)"/>
+  <line x1="30" y1="105" x2="30" y2="12" marker-end="url(#k1a03)"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="1.8" d="M32 105V74H44V105M50 105V44H64V105M78 105V70H98V105M112 105V78H122V105M126 105V46H152V105M160 105V70H180V105M186 105V56H198V105M206 105V80H224V105M230 105V52H244V105M250 105V72H270V105"/>
+  <!-- v(t): отклик системы -->
+  <line x1="30" y1="225" x2="308" y2="225" marker-end="url(#k1a03)"/>
+  <line x1="30" y1="225" x2="30" y2="132" marker-end="url(#k1a03)"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2" d="M30 200C38 199 42 184 50 182S60 200 68 199S80 193 88 196S98 202 104 199S114 176 122 178S132 200 140 199S156 193 164 196S176 186 184 188S196 200 206 199S222 194 230 190S242 186 250 194S266 200 278 197"/>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="38" y="22">n(t)</text>
+    <text x="304" y="122">t</text>
+    <text x="38" y="142">v(t)</text>
+    <text x="304" y="238">t</text>
+  </g>
+</svg>

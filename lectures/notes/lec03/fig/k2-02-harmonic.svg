@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 110" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k2a02" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="10" y1="60" x2="118" y2="60" marker-end="url(#k2a02)"/>
+  <rect x="120" y="35" width="90" height="50" rx="4"/>
+  <line x1="210" y1="60" x2="318" y2="60" marker-end="url(#k2a02)"/>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="12" y="30">u₁(t) =</text>
+    <text x="12" y="50">= A₁e<tspan dy="-6" font-size="10">j(ωt+φ₁)</tspan></text>
+    <text x="218" y="30">u₂(t) =</text>
+    <text x="218" y="50">= A₂e<tspan dy="-6" font-size="10">j(ωt+φ₂)</tspan></text>
+  </g>
+</svg>

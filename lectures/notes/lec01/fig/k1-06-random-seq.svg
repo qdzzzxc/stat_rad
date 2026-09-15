@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k1a06" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="30" y1="140" x2="308" y2="140" marker-end="url(#k1a06)"/>
+  <line x1="30" y1="140" x2="30" y2="20" marker-end="url(#k1a06)"/>
+  <g class="acc" stroke="#2b59c3" stroke-width="2">
+    <line x1="55" y1="140" x2="55" y2="118"/><line x1="82" y1="140" x2="82" y2="92"/>
+    <line x1="109" y1="140" x2="109" y2="67"/><line x1="136" y1="140" x2="136" y2="46"/>
+    <line x1="163" y1="140" x2="163" y2="71"/><line x1="190" y1="140" x2="190" y2="63"/>
+    <line x1="217" y1="140" x2="217" y2="121"/>
+  </g>
+  <g class="accf" fill="#2b59c3" stroke="none">
+    <circle cx="55" cy="118" r="3.5"/><circle cx="82" cy="92" r="3.5"/><circle cx="109" cy="67" r="3.5"/>
+    <circle cx="136" cy="46" r="3.5"/><circle cx="163" cy="71" r="3.5"/><circle cx="190" cy="63" r="3.5"/>
+    <circle cx="217" cy="121" r="3.5"/>
+  </g>
+  <line x1="40" y1="52" x2="74" y2="30" stroke-width="1"/>
+  <g fill="currentColor" stroke="none">
+    <text x="78" y="28" font-size="12">число значений ∞</text>
+    <text x="304" y="158" font-style="italic">t</text>
+  </g>
+</svg>

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 290" font-family="Georgia, serif" font-size="12" fill="none" stroke="currentColor" stroke-width="1.5" color="#1f2937">
+  <defs><marker id="k5a11" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <!-- вход и разветвления -->
+  <line x1="6" y1="145" x2="22" y2="145"/>
+  <line x1="22" y1="62" x2="22" y2="222"/>
+  <line x1="22" y1="62" x2="34" y2="62"/>
+  <line x1="22" y1="222" x2="34" y2="222"/>
+  <line x1="34" y1="28" x2="34" y2="96"/>
+  <line x1="34" y1="188" x2="34" y2="256"/>
+  <!-- канал s1 -->
+  <line x1="34" y1="28" x2="48" y2="28" marker-end="url(#k5a11)"/>
+  <line x1="34" y1="96" x2="48" y2="96" marker-end="url(#k5a11)"/>
+  <rect x="50" y="17" width="22" height="22" rx="2"/>
+  <rect x="50" y="85" width="22" height="22" rx="2"/>
+  <line x1="61" y1="56" x2="61" y2="41" marker-end="url(#k5a11)"/>
+  <line x1="61" y1="124" x2="61" y2="109" marker-end="url(#k5a11)"/>
+  <line x1="72" y1="28" x2="88" y2="28" marker-end="url(#k5a11)"/>
+  <line x1="72" y1="96" x2="88" y2="96" marker-end="url(#k5a11)"/>
+  <rect x="90" y="16" width="26" height="24" rx="2"/>
+  <rect x="90" y="84" width="26" height="24" rx="2"/>
+  <line x1="116" y1="28" x2="130" y2="28" marker-end="url(#k5a11)"/>
+  <line x1="116" y1="96" x2="130" y2="96" marker-end="url(#k5a11)"/>
+  <rect x="132" y="16" width="28" height="24" rx="2"/>
+  <rect x="132" y="84" width="28" height="24" rx="2"/>
+  <polyline points="160,28 180,28 180,49" marker-end="url(#k5a11)"/>
+  <polyline points="160,96 180,96 180,75" marker-end="url(#k5a11)"/>
+  <rect x="168" y="51" width="24" height="22" rx="2"/>
+  <line x1="192" y1="62" x2="206" y2="62" marker-end="url(#k5a11)"/>
+  <rect x="208" y="51" width="26" height="22" rx="2"/>
+  <polyline points="234,62 262,62 262,128" marker-end="url(#k5a11)"/>
+  <!-- канал s0 -->
+  <line x1="34" y1="188" x2="48" y2="188" marker-end="url(#k5a11)"/>
+  <line x1="34" y1="256" x2="48" y2="256" marker-end="url(#k5a11)"/>
+  <rect x="50" y="177" width="22" height="22" rx="2"/>
+  <rect x="50" y="245" width="22" height="22" rx="2"/>
+  <line x1="61" y1="216" x2="61" y2="201" marker-end="url(#k5a11)"/>
+  <line x1="61" y1="284" x2="61" y2="269" marker-end="url(#k5a11)"/>
+  <line x1="72" y1="188" x2="88" y2="188" marker-end="url(#k5a11)"/>
+  <line x1="72" y1="256" x2="88" y2="256" marker-end="url(#k5a11)"/>
+  <rect x="90" y="176" width="26" height="24" rx="2"/>
+  <rect x="90" y="244" width="26" height="24" rx="2"/>
+  <line x1="116" y1="188" x2="130" y2="188" marker-end="url(#k5a11)"/>
+  <line x1="116" y1="256" x2="130" y2="256" marker-end="url(#k5a11)"/>
+  <rect x="132" y="176" width="28" height="24" rx="2"/>
+  <rect x="132" y="244" width="28" height="24" rx="2"/>
+  <polyline points="160,188 180,188 180,209" marker-end="url(#k5a11)"/>
+  <polyline points="160,256 180,256 180,235" marker-end="url(#k5a11)"/>
+  <rect x="168" y="211" width="24" height="22" rx="2"/>
+  <line x1="192" y1="222" x2="206" y2="222" marker-end="url(#k5a11)"/>
+  <rect x="208" y="211" width="26" height="22" rx="2"/>
+  <polyline points="234,222 262,222 262,160" marker-end="url(#k5a11)"/>
+  <!-- вычитание и ПУ -->
+  <rect x="248" y="130" width="28" height="28" rx="3"/>
+  <line x1="276" y1="144" x2="290" y2="144" marker-end="url(#k5a11)"/>
+  <rect class="acc" stroke="#2b59c3" x="292" y="128" width="36" height="32" rx="3"/>
+  <line x1="310" y1="192" x2="310" y2="162" marker-end="url(#k5a11)"/>
+  <line x1="328" y1="144" x2="352" y2="124" marker-end="url(#k5a11)"/>
+  <line x1="328" y1="144" x2="352" y2="164" marker-end="url(#k5a11)"/>
+  <g fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="12" y="138" font-style="italic">u(t)</text>
+    <g font-size="13">
+      <text x="61" y="33">×</text><text x="61" y="101">×</text>
+      <text x="61" y="193">×</text><text x="61" y="261">×</text>
+    </g>
+    <g font-size="10" font-style="italic">
+      <text x="80" y="54">s₁(t)</text><text x="80" y="122">ŝ₁(t)</text>
+      <text x="80" y="214">s₀(t)</text><text x="80" y="284">ŝ₀(t)</text>
+    </g>
+    <g font-size="15">
+      <text x="101" y="34">∫</text><text x="101" y="102">∫</text>
+      <text x="101" y="194">∫</text><text x="101" y="262">∫</text>
+    </g>
+    <g font-size="8">
+      <text x="110" y="24" font-style="italic">T</text><text x="110" y="37">0</text>
+      <text x="110" y="92" font-style="italic">T</text><text x="110" y="105">0</text>
+      <text x="110" y="184" font-style="italic">T</text><text x="110" y="197">0</text>
+      <text x="110" y="252" font-style="italic">T</text><text x="110" y="265">0</text>
+    </g>
+    <g font-size="11">
+      <text x="146" y="32">Кв</text><text x="146" y="100">Кв</text>
+      <text x="146" y="192">Кв</text><text x="146" y="260">Кв</text>
+    </g>
+    <text x="180" y="67" font-size="13">Σ</text>
+    <text x="180" y="227" font-size="13">Σ</text>
+    <text x="221" y="67" font-size="13">√</text>
+    <text x="221" y="227" font-size="13">√</text>
+    <text x="248" y="55" font-style="italic">z₁</text>
+    <text x="248" y="215" font-style="italic">z₀</text>
+    <text x="270" y="122" font-size="11">+</text>
+    <text x="270" y="172" font-size="11">−</text>
+    <text x="262" y="149" font-size="14">Σ</text>
+    <text x="310" y="148" font-size="11">ПУ</text>
+    <text x="320" y="190" font-style="italic">C</text>
+    <text x="352" y="116" font-style="italic">s₁</text>
+    <text x="352" y="182" font-style="italic">s₀</text>
+  </g>
+</svg>

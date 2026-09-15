@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" font-family="Georgia, serif" font-size="12" fill="none" stroke="currentColor" stroke-width="1.5" color="#1f2937">
+  <defs><marker id="k5a15" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="6" y1="150" x2="22" y2="150"/>
+  <line x1="22" y1="50" x2="22" y2="250"/>
+  <line x1="22" y1="50" x2="34" y2="50"/>
+  <line x1="22" y1="150" x2="34" y2="150"/>
+  <line x1="22" y1="250" x2="34" y2="250"/>
+  <!-- ветвь 1 -->
+  <line x1="34" y1="24" x2="34" y2="76"/>
+  <line x1="34" y1="24" x2="48" y2="24" marker-end="url(#k5a15)"/>
+  <line x1="34" y1="76" x2="48" y2="76" marker-end="url(#k5a15)"/>
+  <rect x="50" y="14" width="20" height="20" rx="2"/><rect x="50" y="66" width="20" height="20" rx="2"/>
+  <line x1="70" y1="24" x2="84" y2="24" marker-end="url(#k5a15)"/><line x1="70" y1="76" x2="84" y2="76" marker-end="url(#k5a15)"/>
+  <rect x="86" y="13" width="24" height="22" rx="2"/><rect x="86" y="65" width="24" height="22" rx="2"/>
+  <line x1="110" y1="24" x2="122" y2="24" marker-end="url(#k5a15)"/><line x1="110" y1="76" x2="122" y2="76" marker-end="url(#k5a15)"/>
+  <rect x="124" y="13" width="26" height="22" rx="2"/><rect x="124" y="65" width="26" height="22" rx="2"/>
+  <polyline points="150,24 168,24 168,39" marker-end="url(#k5a15)"/>
+  <polyline points="150,76 168,76 168,61" marker-end="url(#k5a15)"/>
+  <rect x="157" y="41" width="22" height="18" rx="2"/>
+  <line x1="179" y1="50" x2="191" y2="50" marker-end="url(#k5a15)"/>
+  <rect x="193" y="40" width="24" height="20" rx="2"/>
+  <polyline points="217,50 250,50 250,112 280,112" marker-end="url(#k5a15)"/>
+  <!-- ветвь i -->
+  <line x1="34" y1="124" x2="34" y2="176"/>
+  <line x1="34" y1="124" x2="48" y2="124" marker-end="url(#k5a15)"/>
+  <line x1="34" y1="176" x2="48" y2="176" marker-end="url(#k5a15)"/>
+  <rect x="50" y="114" width="20" height="20" rx="2"/><rect x="50" y="166" width="20" height="20" rx="2"/>
+  <line x1="70" y1="124" x2="84" y2="124" marker-end="url(#k5a15)"/><line x1="70" y1="176" x2="84" y2="176" marker-end="url(#k5a15)"/>
+  <rect x="86" y="113" width="24" height="22" rx="2"/><rect x="86" y="165" width="24" height="22" rx="2"/>
+  <line x1="110" y1="124" x2="122" y2="124" marker-end="url(#k5a15)"/><line x1="110" y1="176" x2="122" y2="176" marker-end="url(#k5a15)"/>
+  <rect x="124" y="113" width="26" height="22" rx="2"/><rect x="124" y="165" width="26" height="22" rx="2"/>
+  <polyline points="150,124 168,124 168,139" marker-end="url(#k5a15)"/>
+  <polyline points="150,176 168,176 168,161" marker-end="url(#k5a15)"/>
+  <rect x="157" y="141" width="22" height="18" rx="2"/>
+  <line x1="179" y1="150" x2="191" y2="150" marker-end="url(#k5a15)"/>
+  <rect x="193" y="140" width="24" height="20" rx="2"/>
+  <line x1="217" y1="150" x2="280" y2="150" marker-end="url(#k5a15)"/>
+  <!-- ветвь m -->
+  <line x1="34" y1="224" x2="34" y2="276"/>
+  <line x1="34" y1="224" x2="48" y2="224" marker-end="url(#k5a15)"/>
+  <line x1="34" y1="276" x2="48" y2="276" marker-end="url(#k5a15)"/>
+  <rect x="50" y="214" width="20" height="20" rx="2"/><rect x="50" y="266" width="20" height="20" rx="2"/>
+  <line x1="70" y1="224" x2="84" y2="224" marker-end="url(#k5a15)"/><line x1="70" y1="276" x2="84" y2="276" marker-end="url(#k5a15)"/>
+  <rect x="86" y="213" width="24" height="22" rx="2"/><rect x="86" y="265" width="24" height="22" rx="2"/>
+  <line x1="110" y1="224" x2="122" y2="224" marker-end="url(#k5a15)"/><line x1="110" y1="276" x2="122" y2="276" marker-end="url(#k5a15)"/>
+  <rect x="124" y="213" width="26" height="22" rx="2"/><rect x="124" y="265" width="26" height="22" rx="2"/>
+  <polyline points="150,224 168,224 168,239" marker-end="url(#k5a15)"/>
+  <polyline points="150,276 168,276 168,261" marker-end="url(#k5a15)"/>
+  <rect x="157" y="241" width="22" height="18" rx="2"/>
+  <line x1="179" y1="250" x2="191" y2="250" marker-end="url(#k5a15)"/>
+  <rect x="193" y="240" width="24" height="20" rx="2"/>
+  <polyline points="217,250 250,250 250,188 280,188" marker-end="url(#k5a15)"/>
+  <!-- РУ -->
+  <rect class="acc" stroke="#2b59c3" x="282" y="96" width="54" height="108" rx="3"/>
+  <line x1="336" y1="150" x2="356" y2="150" marker-end="url(#k5a15)"/>
+  <g fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="12" y="142" font-style="italic">u(t)</text>
+    <g font-size="12">
+      <text x="60" y="28">×</text><text x="60" y="80">×</text>
+      <text x="60" y="128">×</text><text x="60" y="180">×</text>
+      <text x="60" y="228">×</text><text x="60" y="280">×</text>
+    </g>
+    <g font-size="9" font-style="italic">
+      <text x="62" y="47">s₁(t)</text><text x="62" y="62">ŝ₁(t)</text>
+      <text x="62" y="147">s<tspan dy="2" font-size="7">i</tspan><tspan dy="-2">(t)</tspan></text>
+      <text x="62" y="162">ŝ<tspan dy="2" font-size="7">i</tspan><tspan dy="-2">(t)</tspan></text>
+      <text x="62" y="247">s<tspan dy="2" font-size="7">m</tspan><tspan dy="-2">(t)</tspan></text>
+      <text x="62" y="262">ŝ<tspan dy="2" font-size="7">m</tspan><tspan dy="-2">(t)</tspan></text>
+    </g>
+    <g font-size="14">
+      <text x="96" y="29">∫</text><text x="96" y="81">∫</text>
+      <text x="96" y="129">∫</text><text x="96" y="181">∫</text>
+      <text x="96" y="229">∫</text><text x="96" y="281">∫</text>
+    </g>
+    <g font-size="7">
+      <text x="104" y="21" font-style="italic">T</text><text x="104" y="33">0</text>
+      <text x="104" y="73" font-style="italic">T</text><text x="104" y="85">0</text>
+      <text x="104" y="121" font-style="italic">T</text><text x="104" y="133">0</text>
+      <text x="104" y="173" font-style="italic">T</text><text x="104" y="185">0</text>
+      <text x="104" y="221" font-style="italic">T</text><text x="104" y="233">0</text>
+      <text x="104" y="273" font-style="italic">T</text><text x="104" y="285">0</text>
+    </g>
+    <g font-size="10">
+      <text x="137" y="28">Кв</text><text x="137" y="80">Кв</text>
+      <text x="137" y="128">Кв</text><text x="137" y="180">Кв</text>
+      <text x="137" y="228">Кв</text><text x="137" y="280">Кв</text>
+    </g>
+    <g font-size="12">
+      <text x="168" y="54">Σ</text><text x="168" y="154">Σ</text><text x="168" y="254">Σ</text>
+      <text x="205" y="55">√</text><text x="205" y="155">√</text><text x="205" y="255">√</text>
+    </g>
+    <text x="234" y="44" font-style="italic">z₁</text>
+    <text x="234" y="144" font-style="italic">z<tspan dy="3" font-size="9">i</tspan></text>
+    <text x="234" y="244" font-style="italic">z<tspan dy="3" font-size="9">m</tspan></text>
+    <text x="60" y="104" font-size="12">⋮</text>
+    <text x="60" y="206" font-size="12">⋮</text>
+    <text x="268" y="134" font-size="11">⋮</text>
+    <text x="268" y="176" font-size="11">⋮</text>
+    <text x="309" y="124">РУ</text>
+    <text x="309" y="144" font-size="10">(схема</text>
+    <text x="309" y="158" font-size="10">выбора</text>
+    <text x="309" y="172" font-size="10">max)</text>
+    <text x="350" y="140" font-style="italic">s<tspan dy="3" font-size="9">l</tspan></text>
+  </g>
+</svg>

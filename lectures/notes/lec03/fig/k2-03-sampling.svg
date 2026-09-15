@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k2a03" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="30" y1="95" x2="308" y2="95" marker-end="url(#k2a03)"/>
+  <line x1="30" y1="170" x2="30" y2="10" marker-end="url(#k2a03)"/>
+  <g stroke-width="1" opacity=".7">
+    <line x1="45" y1="95" x2="45" y2="52"/><line x1="65" y1="95" x2="65" y2="50"/><line x1="85" y1="95" x2="85" y2="48"/><line x1="105" y1="95" x2="105" y2="46"/>
+    <line x1="135" y1="95" x2="135" y2="135"/><line x1="155" y1="95" x2="155" y2="138"/><line x1="175" y1="95" x2="175" y2="133"/><line x1="195" y1="95" x2="195" y2="130"/>
+    <line x1="225" y1="95" x2="225" y2="42"/><line x1="245" y1="95" x2="245" y2="45"/><line x1="265" y1="95" x2="265" y2="47"/>
+  </g>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" stroke-linejoin="round" d="M32 55L45 52L55 54L65 50L75 51L85 48L95 50L105 46L112 44L115 70L120 95L125 118L135 135L145 132L155 138L165 131L175 133L185 128L195 130L205 124L210 100L215 60L225 42L235 48L245 45L255 50L265 47L275 46L280 70L285 95L290 112L300 118"/>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="38" y="20">ξ(t)</text>
+    <text x="302" y="115">t</text>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 185" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k1a16" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="15" y1="155" x2="308" y2="155" marker-end="url(#k1a16)"/>
+  <line x1="160" y1="155" x2="160" y2="12" marker-end="url(#k1a16)"/>
+  <!-- прямоугольник площади под огибающей -->
+  <rect x="70" y="40" width="180" height="115" stroke-width="1.4"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M22 150C50 149 62 146 76 132S120 60 136 48S152 40 160 40S178 42 190 52S228 110 244 134S272 149 298 150"/>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="168" y="22">r(τ)</text>
+    <text x="165" y="36" font-style="normal">1</text>
+    <text x="304" y="173">τ</text>
+    <text x="70" y="173" text-anchor="middle">−τ<tspan font-size="10" dy="3">к</tspan></text>
+    <text x="250" y="173" text-anchor="middle">τ<tspan font-size="10" dy="3">к</tspan></text>
+  </g>
+</svg>

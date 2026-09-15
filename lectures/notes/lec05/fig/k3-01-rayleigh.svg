@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="k3a01" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="30" y1="150" x2="308" y2="150" marker-end="url(#k3a01)"/>
+  <line x1="30" y1="150" x2="30" y2="12" marker-end="url(#k3a01)"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M30 150C40 95 52 40 66 40C80 40 84 80 100 100C130 132 190 144 260 147"/>
+  <path d="M30 150C50 110 70 85 95 85C120 85 130 105 160 122C200 140 250 145 290 147"/>
+  <g fill="currentColor" stroke="none">
+    <text x="40" y="22" font-style="italic">W(A)</text>
+    <text x="300" y="170" font-style="italic">A</text>
+    <text x="72" y="36" font-style="italic">σ₁</text>
+    <text x="122" y="80" font-style="italic">σ₂ &gt; σ₁</text>
+  </g>
+</svg>

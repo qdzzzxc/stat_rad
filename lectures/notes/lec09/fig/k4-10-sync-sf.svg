@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 70" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <line x1="30" y1="42" x2="90" y2="42"/>
+  <rect x="90" y="24" width="56" height="36" rx="3"/>
+  <line x1="146" y1="42" x2="220" y2="42"/>
+  <circle class="accf" fill="#2b59c3" stroke="none" cx="220" cy="42" r="3"/>
+  <g fill="currentColor" stroke="none">
+    <text x="36" y="34" font-style="italic">u(t)</text>
+    <text x="118" y="47" text-anchor="middle">СФ</text>
+    <text x="190" y="32" text-anchor="middle" font-style="italic">t₀ = T</text>
+  </g>
+</svg>

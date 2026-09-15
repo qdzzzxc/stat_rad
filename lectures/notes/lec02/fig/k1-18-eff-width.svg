@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 185" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs>
+    <marker id="k1a18" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker>
+    <marker id="k1a18b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker>
+  </defs>
+  <line x1="15" y1="140" x2="308" y2="140" marker-end="url(#k1a18)"/>
+  <line x1="160" y1="140" x2="160" y2="12" marker-end="url(#k1a18)"/>
+  <!-- прямоугольник высотой S_max -->
+  <path d="M90 140V45H230V140" stroke-width="1.1" stroke-dasharray="5 4" opacity=".75"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M25 134C55 132 70 124 88 110S125 50 145 46S160 45 160 45S175 44 190 50S222 100 238 116S275 132 300 134"/>
+  <line x1="90" y1="160" x2="230" y2="160" stroke-width="1.2" marker-start="url(#k1a18b)" marker-end="url(#k1a18b)"/>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="168" y="22">S(ω)</text>
+    <text x="236" y="42">S<tspan font-size="10" dy="3">max</tspan></text>
+    <text x="165" y="156" font-style="normal">0</text>
+    <text x="304" y="158">ω</text>
+    <text x="160" y="180" text-anchor="middle">Δω<tspan font-size="10" dy="3">эфф</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 150" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <line x1="30" y1="50" x2="250" y2="50"/>
+  <line x1="30" y1="44" x2="30" y2="56"/>
+  <line x1="140" y1="44" x2="140" y2="56"/>
+  <line x1="250" y1="44" x2="250" y2="56"/>
+  <line x1="30" y1="120" x2="250" y2="120"/>
+  <line x1="30" y1="114" x2="30" y2="126"/>
+  <line x1="140" y1="114" x2="140" y2="126"/>
+  <line x1="250" y1="114" x2="250" y2="126"/>
+  <g fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="85" y="40" font-style="italic">s₀(t, φ)</text>
+    <text x="195" y="40" font-style="italic">s₀(t, φ)</text>
+    <text x="30" y="72" font-style="italic">−T</text>
+    <text x="140" y="72">0</text>
+    <text x="250" y="72" font-style="italic">T</text>
+    <text class="accf" fill="#2b59c3" x="290" y="55" font-size="15">«0»</text>
+    <text x="85" y="110" font-style="italic">s₀(t, φ)</text>
+    <text x="195" y="110" font-style="italic">−s₀(t, φ)</text>
+    <text x="30" y="142" font-style="italic">−T</text>
+    <text x="140" y="142">0</text>
+    <text x="250" y="142" font-style="italic">T</text>
+    <text class="accf" fill="#2b59c3" x="290" y="125" font-size="15">«1»</text>
+  </g>
+</svg>

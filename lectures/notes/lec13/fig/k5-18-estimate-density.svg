@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <!-- верхний: оценка без смещения -->
+  <line x1="30" y1="100" x2="250" y2="100"/>
+  <line x1="120" y1="18" x2="120" y2="100" stroke-width="1" stroke-dasharray="4 4" opacity=".6"/>
+  <path d="M34 94C60 90 80 40 120 40C160 40 180 90 206 94"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M40 98C90 97 104 90 112 40C115 18 125 18 128 40C136 90 150 97 200 98"/>
+  <!-- нижний: смещённая оценка -->
+  <line x1="30" y1="226" x2="250" y2="226"/>
+  <line x1="80" y1="140" x2="80" y2="226" stroke-width="1" stroke-dasharray="4 4" opacity=".6"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M36 222C110 222 130 220 140 196C146 176 148 150 152 146C156 150 158 176 164 196C174 220 194 222 236 222"/>
+  <line x1="152" y1="222" x2="152" y2="230" stroke-width="1.2"/>
+  <!-- отметки -->
+  <path d="M264 64L274 76L296 40" stroke-width="2.4"/>
+  <path d="M266 170L292 200M292 170L266 200" stroke-width="2.4"/>
+  <g fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="120" y="120" font-style="italic">λ₀</text>
+    <text x="80" y="246" font-style="italic">λ₀</text>
+  </g>
+</svg>
