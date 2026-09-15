@@ -1,0 +1,8 @@
+[project]
+name = "stat-rad"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "pillow>=12.3.0",
+    "pymupdf>=1.28.2",
+]

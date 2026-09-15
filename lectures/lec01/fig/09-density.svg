@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 170" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="a09" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="30" y1="140" x2="308" y2="140" marker-end="url(#a09)"/>
+  <line x1="30" y1="140" x2="30" y2="10" marker-end="url(#a09)"/>
+  <line x1="140" y1="35" x2="140" y2="140" stroke-width="1" stroke-dasharray="4 4" opacity=".6"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M35 135C75 130 105 35 140 35C175 35 215 125 300 132"/>
+  <circle class="accf" cx="140" cy="35" r="4" fill="#2b59c3" stroke="none"/>
+  <g fill="currentColor" stroke="none">
+    <text x="40" y="22" font-style="italic">W(x)</text>
+    <text x="304" y="160" font-style="italic">x</text>
+    <text x="182" y="22" font-size="12">наиболее вероятное</text>
+    <text x="182" y="37" font-size="12">значение</text>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+# зависимости (восстанавливаются: uv sync, npm ci)
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+
+# локальные настройки агентов
+.claude/settings.local.json
+
+# системное и lock-файлы редакторов
+.DS_Store
+Thumbs.db
+.~lock.*#

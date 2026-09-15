@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 170" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="a03" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="30" y1="140" x2="308" y2="140" marker-end="url(#a03)"/>
+  <line x1="30" y1="140" x2="30" y2="12" marker-end="url(#a03)"/>
+  <g class="acc" stroke="#2b59c3" stroke-width="2.2">
+    <line x1="55" y1="140" x2="55" y2="78"/><line x1="85" y1="140" x2="85" y2="45"/>
+    <line x1="115" y1="140" x2="115" y2="102"/><line x1="145" y1="140" x2="145" y2="60"/>
+    <line x1="175" y1="140" x2="175" y2="30"/><line x1="205" y1="140" x2="205" y2="88"/>
+    <line x1="235" y1="140" x2="235" y2="52"/><line x1="265" y1="140" x2="265" y2="70"/>
+  </g>
+  <g class="accf" fill="#2b59c3" stroke="none">
+    <circle cx="55" cy="78" r="3.5"/><circle cx="85" cy="45" r="3.5"/><circle cx="115" cy="102" r="3.5"/><circle cx="145" cy="60" r="3.5"/>
+    <circle cx="175" cy="30" r="3.5"/><circle cx="205" cy="88" r="3.5"/><circle cx="235" cy="52" r="3.5"/><circle cx="265" cy="70" r="3.5"/>
+  </g>
+  <g fill="currentColor" stroke="none" font-style="italic" text-anchor="middle">
+    <text x="55" y="158">t₁</text><text x="85" y="158">t₂</text><text x="115" y="158">t₃</text>
+    <text x="145" y="158">t₄</text><text x="175" y="158">t₅</text><text x="304" y="160">t</text>
+  </g>
+</svg>

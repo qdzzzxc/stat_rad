@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 170" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="a10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="30" y1="150" x2="308" y2="150" marker-end="url(#a10)"/>
+  <line x1="30" y1="150" x2="30" y2="10" marker-end="url(#a10)"/>
+  <g stroke-width="1.1" stroke-linejoin="round" opacity=".6">
+    <path d="M30 140L50 128L65 132L85 118L100 122L120 108L140 112L160 96L180 99L200 82L220 86L240 66L260 70L280 52L300 48"/>
+    <path d="M30 140L50 136L70 126L90 131L110 120L130 124L150 108L170 111L190 95L210 98L230 80L250 84L270 64L300 38"/>
+    <path d="M30 140L50 130L70 122L90 126L110 108L130 112L150 92L170 96L190 78L210 82L230 64L250 68L270 50L300 30"/>
+  </g>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.6" d="M30 140C120 120 200 70 300 35"/>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text x="40" y="22">x(t)</text>
+    <text class="accf" fill="#2b59c3" x="262" y="26">m(t)</text>
+    <text x="304" y="168">t</text>
+  </g>
+</svg>

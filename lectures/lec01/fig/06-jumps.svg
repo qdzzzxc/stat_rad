@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="a06" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="30" y1="90" x2="308" y2="90" marker-end="url(#a06)"/>
+  <line x1="30" y1="150" x2="30" y2="10" marker-end="url(#a06)"/>
+  <g stroke-width="1" stroke-dasharray="3 3" opacity=".6">
+    <line x1="70" y1="35" x2="70" y2="130"/><line x1="150" y1="70" x2="150" y2="125"/>
+  </g>
+  <g class="acc" stroke="#2b59c3" stroke-width="2.2">
+    <path d="M30 50C45 30 55 60 70 35"/>
+    <path d="M70 130C90 100 100 125 120 95S145 80 150 70"/>
+    <path d="M150 125C170 110 180 95 200 100S240 85 300 88"/>
+  </g>
+  <g stroke-width="1" opacity=".7">
+    <line x1="208" y1="36" x2="74" y2="80"/><line x1="214" y1="40" x2="154" y2="96"/>
+  </g>
+  <g fill="currentColor" stroke="none">
+    <text x="206" y="30">разрыв</text>
+    <text x="304" y="108" font-style="italic">t</text>
+  </g>
+</svg>

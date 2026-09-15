@@ -1,0 +1,13 @@
+{
+  "name": "stat_rad",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "katex": "^0.18.7",
+    "marked": "^18.0.13",
+    "marked-katex-extension": "^5.1.12"
+  },
+  "private": true
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs><marker id="a07" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+  <line x1="30" y1="90" x2="312" y2="90" marker-end="url(#a07)"/>
+  <line x1="30" y1="170" x2="30" y2="10" marker-end="url(#a07)"/>
+  <path stroke-width="1.4" d="M30 90Q35 46 40 90Q45 138 50 90Q55 38 60 90Q65 146 70 90Q75 30 80 90Q85 154 90 90Q95 24 100 90Q105 158 110 90Q115 22 120 90Q125 156 130 90Q135 28 140 90Q145 146 150 90Q155 38 160 90Q165 140 170 90Q175 40 180 90Q185 142 190 90Q195 32 200 90Q205 154 210 90Q215 18 220 90Q225 168 230 90Q235 8 240 90Q245 174 250 90Q255 6 260 90Q265 170 270 90Q275 16 280 90Q285 156 290 90Q295 32 300 90"/>
+  <g class="acc" stroke="#2b59c3" stroke-width="2.2" stroke-dasharray="6 4">
+    <path d="M30 68C70 58 95 54 115 56S150 66 165 65S215 50 245 48S285 56 300 62"/>
+    <path d="M30 112C70 122 95 126 115 124S150 114 165 115S215 130 245 132S285 124 300 118"/>
+  </g>
+  <g fill="currentColor" stroke="none" font-style="italic">
+    <text class="accf" fill="#2b59c3" x="196" y="30">A(t)</text>
+    <text x="306" y="108">t</text>
+  </g>
+</svg>
