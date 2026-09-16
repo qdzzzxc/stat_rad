@@ -1,7 +1,8 @@
 // Сборка в автономный HTML (формулы KaTeX пререндерены, SVG и шрифты встроены).
 //   lectures/lecNN/lecNN.md                       -> html/lecNN.html    (одна лекция)
 //   lectures/<серия>/index.md + <серия>/lecNN/lecNN.md -> html/<серия>.html (вся серия одной страницей с оглавлением)
-// Запуск: node build.mjs [lectures/lec01/lec01.md | lectures/notes ...]  (без аргументов — всё)
+//   quizzes/quizNN.md                             -> html/quizzes/quizNN.html (материалы к летучкам)
+// Запуск: node build.mjs [lectures/lec01/lec01.md | lectures/notes | quizzes/quiz01.md ...]  (без аргументов — всё)
 import fs from 'node:fs';
 import path from 'node:path';
 import { createRequire } from 'node:module';
@@ -96,22 +97,22 @@ function makeMarked(dir) {
   return marked;
 }
 
-function write(name, title, body) {
+function write(name, title, body, outDir = 'html') {
   const html = `<title>${title}</title>
 <style>${katexCss()}${STYLE}</style>
 <main>
 ${body}</main>
 `;
-  fs.mkdirSync('html', { recursive: true });
-  const out = path.join('html', `${name}.html`);
+  fs.mkdirSync(outDir, { recursive: true });
+  const out = path.join(outDir, `${name}.html`);
   fs.writeFileSync(out, html);
   console.log(`${out}: ${(html.length / 1024).toFixed(0)} KB`);
 }
 
-function buildLecture(mdFile) {
+function buildLecture(mdFile, outDir) {
   const md = fs.readFileSync(mdFile, 'utf8');
   const title = (md.match(/^## (.+)$/m) || md.match(/^# (.+)$/m))[1];
-  write(path.basename(mdFile, '.md'), title, makeMarked(path.dirname(mdFile)).parse(md));
+  write(path.basename(mdFile, '.md'), title, makeMarked(path.dirname(mdFile)).parse(md), outDir);
 }
 
 // серия: index.md (заголовок и вступление) + оглавление + все лекции подряд
@@ -147,12 +148,16 @@ function buildSeries(seriesDir) {
 }
 
 function build(target) {
-  if (fs.existsSync(path.join(target, 'index.md'))) buildSeries(target);
+  if (path.normalize(target).startsWith(`quizzes${path.sep}`)) buildLecture(target, path.join('html', 'quizzes'));
+  else if (fs.existsSync(path.join(target, 'index.md'))) buildSeries(target);
   else if (target.endsWith('.md')) buildLecture(target);
   else buildLecture(path.join(target, `${path.basename(target)}.md`));
 }
 
 const targets = process.argv.slice(2);
-const all = () => fs.readdirSync('lectures').sort().map(d => path.join('lectures', d))
-  .filter(d => fs.existsSync(path.join(d, 'index.md')) || fs.existsSync(path.join(d, `${path.basename(d)}.md`)));
+const all = () => [
+  ...fs.readdirSync('lectures').sort().map(d => path.join('lectures', d))
+    .filter(d => fs.existsSync(path.join(d, 'index.md')) || fs.existsSync(path.join(d, `${path.basename(d)}.md`))),
+  ...(fs.existsSync('quizzes') ? fs.readdirSync('quizzes').sort().filter(f => f.endsWith('.md')).map(f => path.join('quizzes', f)) : []),
+];
 for (const t of targets.length ? targets : all()) build(t);

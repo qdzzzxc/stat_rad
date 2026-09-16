@@ -9,7 +9,9 @@ raw/                              сканы конспектов (PDF без т
 lectures/lec01/                   лекция 1 из отдельного скана «лек 1 статрад.pdf»
 lectures/notes/index.md           серия «Стат. Рад. Лекции.pdf»: заголовок курса и вступление
 lectures/notes/lecNN/lecNN.md     лекции серии: текст + формулы KaTeX, графики в fig/
+quizzes/quizNN.md                 материалы к летучкам: выжимка из лекций, рисунки берутся из lectures/…/fig
 html/lec01.html, html/notes.html  результат сборки; руками не править, но коммитить
+html/quizzes/quizNN.html          сборка летучек
 build.mjs                         сборка md → html (KaTeX пререндер, шрифты и SVG встроены)
 .claude/skills/                   скиллы; .agents/skills — симлинк на них для Codex
 ```
@@ -17,8 +19,8 @@ build.mjs                         сборка md → html (KaTeX преренд
 ## Окружение
 
 - Python только через **uv**: `uv sync`, скрипты запускать как `uv run <script>`. Не использовать `pip` и `.venv/bin/python` напрямую; зависимости добавлять через `uv add`.
-- Node: `npm ci`. Сборка всего — `npm run build`; отдельной лекции — `node build.mjs lectures/lec01`; серии — `node build.mjs lectures/notes`.
-- Git LFS: `*.pdf` и `html/*.html` отслеживаются через LFS (`.gitattributes`); после клона нужен `git lfs install`.
+- Node: `npm ci`. Сборка всего — `npm run build`; отдельной лекции — `node build.mjs lectures/lec01`; серии — `node build.mjs lectures/notes`; летучки — `node build.mjs quizzes/quiz01.md`.
+- Git LFS: `*.pdf` и `html/**/*.html` отслеживаются через LFS (`.gitattributes`); после клона нужен `git lfs install`.
 - Проверка на ширине телефона: `.claude/skills/digitize-notes/scripts/phone_shots.sh` (нужен chrome-headless-shell из `~/.cache/ms-playwright`).
 
 ## Оцифровка лекции
@@ -30,6 +32,14 @@ build.mjs                         сборка md → html (KaTeX преренд
 - Графики рисовать вручную как SVG по правилам скилла: `currentColor`, классы `acc`/`accf`, уникальные id маркеров.
 - Выключные формулы разбивать через `aligned`, чтобы строка влезала в ширину телефона.
 - Каждое отклонение от тетради (исправленные описки, догадки в неразборчивых местах) перечислять пользователю.
+
+## Летучки
+
+Летучка — проверочная на 5 минут, её пишут руками, поэтому `quizzes/quizNN.md` — короткая выжимка из лекции:
+
+- **Без формул.** Определения и физический смысл — словами, как в тетради. Рисунки из `lectures/…/fig` можно.
+- **Только то, что есть в конспекте.** Не писать, чего в конспекте нет (например, «физический смысл не записан»), — просто опускать.
+- Темы берутся из запроса пользователя, лишних разделов не добавлять.
 
 ## Сдача изменений
 
