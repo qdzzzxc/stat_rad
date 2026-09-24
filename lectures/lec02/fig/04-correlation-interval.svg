@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 215" fill="none" stroke="currentColor" stroke-width="1.5">
+<path d="M20 170H382M200 16V188"/><path d="M113 50H287V170H113Z" stroke-dasharray="5 4"/><path class="acc" stroke-width="2" d="M27 167Q95 165 132 130T200 48Q236 48 267 118T375 167"/><path d="M113 171V182M287 171V182"/><g fill="currentColor" stroke="none" font-size="14" font-family="serif"><text x="33" y="34">f(τ)</text><text x="205" y="43">R(0)</text><text x="93" y="200">−τₖ</text><text x="193" y="200">0</text><text x="279" y="200">τₖ</text><text x="383" y="175">τ</text></g>
+</svg>

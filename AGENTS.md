@@ -1,6 +1,6 @@
 # stat_rad — оцифровка конспектов по статрадиотехнике
 
-Рукописные конспекты курса «Основы статистической теории обнаружения сигналов и распознавания образов в искусственном интеллекте» (лектор Нефёдова Ю. С., МГТУ). Скан превращается в Markdown с формулами и SVG-графиками, а из него собирается автономный HTML для чтения с телефона.
+Рукописные конспекты курса «Основы статистической теории обнаружения сигналов и распознавания образов в искусственном интеллекте» (лектор Нефёдова Ю. С., МГТУ). Скан превращается в Markdown с формулами и SVG-графиками, а из него собираются автономный HTML для чтения с телефона и PDF для печати.
 
 ## Структура
 
@@ -10,16 +10,17 @@ lectures/lec01/                   лекция 1 из отдельного ск�
 lectures/notes/index.md           серия «Стат. Рад. Лекции.pdf»: заголовок курса и вступление
 lectures/notes/lecNN/lecNN.md     лекции серии: текст + формулы KaTeX, графики в fig/
 quizzes/quizNN.md                 материалы к летучкам: выжимка из лекций, рисунки берутся из lectures/…/fig
-html/lec01.html, html/notes.html  результат сборки; руками не править, но коммитить
+html/lecNN.html, html/notes.html  результат сборки; руками не править, но коммитить
 html/quizzes/quizNN.html          сборка летучек
-build.mjs                         сборка md → html (KaTeX пререндер, шрифты и SVG встроены)
+pdf/                              PDF тех же материалов; руками не править, но коммитить
+build.mjs                         сборка md → html и pdf (KaTeX пререндер, шрифты и SVG встроены)
 .claude/skills/                   скиллы; .agents/skills — симлинк на них для Codex
 ```
 
 ## Окружение
 
 - Python только через **uv**: `uv sync`, скрипты запускать как `uv run <script>`. Не использовать `pip` и `.venv/bin/python` напрямую; зависимости добавлять через `uv add`.
-- Node: `npm ci`. Сборка всего — `npm run build`; отдельной лекции — `node build.mjs lectures/lec01`; серии — `node build.mjs lectures/notes`; летучки — `node build.mjs quizzes/quiz01.md`.
+- Node: `npm ci`; для PDF установить Chromium через `npx playwright install chromium --no-shell`. Сборка всего — `npm run build`; отдельной лекции — `node build.mjs lectures/lec02`; серии — `node build.mjs lectures/notes`; летучки — `node build.mjs quizzes/quiz01.md`.
 - Git LFS: `*.pdf` и `html/**/*.html` отслеживаются через LFS (`.gitattributes`); после клона нужен `git lfs install`.
 - Проверка на ширине телефона: `.claude/skills/digitize-notes/scripts/phone_shots.sh` (нужен chrome-headless-shell из `~/.cache/ms-playwright`).
 
@@ -43,4 +44,4 @@ build.mjs                         сборка md → html (KaTeX преренд
 
 ## Сдача изменений
 
-- Если менялись `lectures/`, пересобрать `html/` и проверить скриншотами, что формулы не обрезаны и графики читаются в светлой и тёмной теме.
+- Если менялись `lectures/`, пересобрать `html/` и `pdf/`, проверить скриншотами, что формулы не обрезаны и графики читаются в светлой и тёмной теме, а PDF пролистывается.

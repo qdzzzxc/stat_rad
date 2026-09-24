@@ -6,7 +6,8 @@ set -euo pipefail
 ROOT=$(cd "$(dirname "$0")/../../../.." && pwd)
 html=$(realpath "$1"); mkdir -p "$2"; out=$(realpath "$2")
 B=$(find ~/.cache/ms-playwright -type f -name chrome-headless-shell | head -1)
-[ -n "$B" ] || { echo "нет chrome-headless-shell: npx playwright install chromium-headless-shell" >&2; exit 1; }
+[ -n "$B" ] || B=$(find ~/.cache/ms-playwright -type f -name chrome | head -1)
+[ -n "$B" ] || { echo "нет Chromium: npx playwright install chromium" >&2; exit 1; }
 
 prefix=light; theme=''
 if [ "${3:-}" = dark ]; then
@@ -19,7 +20,7 @@ while :; do
   page=$out/_$prefix.html
   # сдвиг окна: поднимаем содержимое на off пикселей
   { echo "$theme<style>main{margin-top:-${off}px!important}</style>"; cat "$html"; } > "$page"
-  "$B" --no-sandbox --hide-scrollbars --force-device-scale-factor=1 --window-size=412,$((WIN + 400)) \
+  "$B" --headless=new --no-sandbox --hide-scrollbars --force-device-scale-factor=1 --window-size=412,$((WIN + 400)) \
     --screenshot="$out/_$prefix.png" "file://$page" 2>/dev/null
   res=$(uv run --project "$ROOT" python - "$out/_$prefix.png" "$out/$prefix" "$n" "$WIN" "$off" <<'EOF'
 import sys

@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.4">
+<path d="M15 120H185M100 20V132M215 120H385M300 20V132M15 260H185M100 160V276M215 260H385M300 160V276"/><path class="acc" stroke-width="2" d="M39 120L100 43 161 120M231 119Q274 117 287 67T300 45Q315 46 326 89T369 119M24 260Q50 258 69 244T100 187Q111 188 118 264T139 266Q150 249 160 257T179 260M300 186V260"/><g fill="currentColor" stroke="none" font-size="14" font-family="serif"><text x="22" y="22">1. Треугольная</text><text x="222" y="22">2. Колоколообразная</text><text x="23" y="160">3. Колебательная</text><text x="220" y="160">4. Дельта-образная</text><text x="304" y="189">δ(τ)</text></g>
+</svg>

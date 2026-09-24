@@ -8,6 +8,8 @@ import path from 'node:path';
 import { createRequire } from 'node:module';
 import { Marked } from 'marked';
 import markedKatex from 'marked-katex-extension';
+import { chromium } from 'playwright';
+import { pathToFileURL } from 'node:url';
 
 const require = createRequire(import.meta.url);
 const katexDir = path.dirname(require.resolve('katex/package.json'));
@@ -57,7 +59,22 @@ figcaption{font-size:.85em;color:var(--muted);margin-top:.3em}
 .totop{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));width:44px;height:44px;border-radius:22px;
   display:flex;align-items:center;justify-content:center;background:var(--card);color:var(--fg);border:1px solid var(--rule);
   text-decoration:none;font-size:20px;box-shadow:0 2px 8px rgb(0 0 0/.15)}
+@page{size:A4;margin:18mm 16mm}
+@media print{
+  :root,:root[data-theme="dark"]{--bg:#fff;--fg:#111;--muted:#555;--rule:#ccc;--accent:#234b99;--card:#f5f5f5}
+  body{margin:0;padding:0;font-size:11pt;background:#fff}
+  main{max-width:none}
+  h1,h2,h3,h4{break-after:avoid}
+  p{orphans:3;widows:3}
+  figure,.katex-display,blockquote{break-inside:avoid}
+  .katex-display{overflow:visible}
+  figure svg{max-width:95mm;max-height:160mm}
+  .totop{display:none}
+  .lecture+.lecture{break-before:page;margin-top:0}
+  a{text-decoration:none}
+}
 `;
+const outputs = [];
 
 // сколько раз каждый SVG уже встроен: при повторной вставке id внутри него нужно переименовать
 const svgUses = new Map();
@@ -98,14 +115,18 @@ function makeMarked(dir) {
 }
 
 function write(name, title, body, outDir = 'html') {
-  const html = `<title>${title}</title>
+  const html = `<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${title}</title>
 <style>${katexCss()}${STYLE}</style>
-<main>
-${body}</main>
+</head><body><main>
+${body}</main></body></html>
 `;
   fs.mkdirSync(outDir, { recursive: true });
   const out = path.join(outDir, `${name}.html`);
   fs.writeFileSync(out, html);
+  outputs.push(out);
   console.log(`${out}: ${(html.length / 1024).toFixed(0)} KB`);
 }
 
@@ -161,3 +182,22 @@ const all = () => [
   ...(fs.existsSync('quizzes') ? fs.readdirSync('quizzes').sort().filter(f => f.endsWith('.md')).map(f => path.join('quizzes', f)) : []),
 ];
 for (const t of targets.length ? targets : all()) build(t);
+
+// PDF из тех же автономных страниц: шрифты готовы до печати, оглавление раскрыто.
+const browser = await chromium.launch({ channel: 'chromium' });
+try {
+  const page = await browser.newPage({ colorScheme: 'light' });
+  for (const html of outputs) {
+    await page.goto(pathToFileURL(path.resolve(html)).href);
+    await page.evaluate(async () => {
+      document.querySelectorAll('details').forEach(d => { d.open = true; });
+      await document.fonts.ready;
+    });
+    const pdf = html.replace(/^html\//, 'pdf/').replace(/\.html$/, '.pdf');
+    fs.mkdirSync(path.dirname(pdf), { recursive: true });
+    await page.pdf({ path: pdf, format: 'A4', preferCSSPageSize: true, printBackground: true });
+    console.log(pdf);
+  }
+} finally {
+  await browser.close();
+}
