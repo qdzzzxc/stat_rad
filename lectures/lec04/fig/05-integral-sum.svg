@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 180" font-family="Georgia,serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.5">
+<defs><marker id="lec04a05" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+<path d="M21 140H321" marker-end="url(#lec04a05)"/><path d="M35 152V16" marker-end="url(#lec04a05)"/>
+<path d="M65 140V90H94V140M94 140V66H123V140M123 140V71H152V140M152 140V91H181V140M181 140V90H210V140M210 140V72H239V140M239 140V54H268V140" stroke-width="1"/>
+<path class="acc" stroke="#2b59c3" stroke-width="2" d="M65 90C80 56 105 54 123 71S157 104 181 90 225 64 268 34"/>
+<path d="M65 147V153H94V147"/><g fill="currentColor" stroke="none"><text x="9" y="15">f(x)</text><text x="325" y="156">x</text><text x="55" y="158">a</text><text x="265" y="158">b</text><text x="96" y="172">Δx</text></g>
+</svg>

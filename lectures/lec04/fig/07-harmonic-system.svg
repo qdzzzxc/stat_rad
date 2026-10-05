@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 95" font-family="Georgia,serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.5">
+<defs><marker id="lec04a07" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+<rect x="122" y="28" width="98" height="38" rx="3"/><path d="M23 47H121" marker-end="url(#lec04a07)"/><path d="M221 47H320" marker-end="url(#lec04a07)"/>
+<g fill="currentColor" stroke="none"><text x="25" y="30">U₁(t)</text><text x="251" y="30">U₂(t)</text><text x="143" y="52">ЛИС</text></g>
+</svg>

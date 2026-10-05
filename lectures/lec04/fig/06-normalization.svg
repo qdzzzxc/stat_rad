@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 190" font-family="Georgia,serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.5">
+<defs><marker id="lec04a06" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+<path d="M26 146H321" marker-end="url(#lec04a06)"/><path d="M40 156V17" marker-end="url(#lec04a06)"/>
+<path class="acc" stroke="#2b59c3" stroke-width="2" d="M40 146C53 87 77 54 104 59S143 89 159 102 197 124 217 130 267 139 307 142"/>
+<path d="M51 146V115M64 146V90M77 146V71M90 146V62M103 146V63M116 146V71M129 146V82M142 146V94M155 146V102M168 146V112M181 146V119M194 146V122M207 146V126M220 146V130M233 146V133M246 146V135M259 146V136M272 146V138M285 146V140M298 146V141" stroke-width=".8"/>
+<path d="M307 146V31M51 153V159H64V153"/><g fill="currentColor" stroke="none"><text x="12" y="16">h(t)</text><text x="320" y="166">t</text><text x="292" y="175">T</text><text x="41" y="175">Δt</text></g>
+</svg>

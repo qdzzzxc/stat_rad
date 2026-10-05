@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 175" font-family="Georgia,serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.5">
+<defs><marker id="lec04a02" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker><pattern id="lec04h02" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M0 7L7 0" stroke="currentColor" stroke-width=".6"/></pattern></defs>
+<path d="M24 142H322" marker-end="url(#lec04a02)"/><path d="M167 155V17" marker-end="url(#lec04a02)"/>
+<path d="M31 142C72 142 94 130 119 85S167 42 183 61 207 107 242 127V142Z" fill="url(#lec04h02)" stroke="none"/>
+<path class="acc" stroke="#2b59c3" stroke-width="2" d="M31 142C72 142 94 130 119 85S167 42 183 61 207 107 242 127 285 141 310 142"/>
+<path d="M242 142V118"/><g fill="currentColor" stroke="none"><text x="172" y="17">W₁(z)</text><text x="323" y="160">z</text><text x="238" y="160">x</text><text x="73" y="129">F(x)</text></g>
+</svg>

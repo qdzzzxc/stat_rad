@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 210" font-family="Georgia,serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.5">
+<defs><marker id="lec04a01" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+<path d="M22 172H323" marker-end="url(#lec04a01)"/><path d="M32 182V15" marker-end="url(#lec04a01)"/>
+<path class="acc" stroke="#2b59c3" stroke-width="2" d="M45 171C104 170 145 165 155 113S164 34 176 34 190 98 202 140 245 171 310 171"/>
+<path d="M45 170C82 169 115 126 140 111S190 102 215 128 267 168 310 170" stroke-width="2"/>
+<path d="M40 168C85 165 110 144 142 138S195 131 229 146 281 166 316 169" stroke-dasharray="5 3"/>
+<path d="M176 170V35" stroke-dasharray="3 4"/>
+<g fill="currentColor" stroke="none"><text x="10" y="14">W₁(x)</text><text x="324" y="184">x</text><text x="170" y="191">m</text><text x="201" y="48">σ₃² &lt; σ₁²</text><text x="239" y="120">σ₁²</text><text x="244" y="150">σ₂² &gt; σ₁²</text></g>
+</svg>
