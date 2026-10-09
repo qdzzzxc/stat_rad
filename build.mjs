@@ -2,6 +2,7 @@
 //   lectures/lecNN/lecNN.md                       -> html/lecNN.html    (одна лекция)
 //   lectures/<серия>/index.md + <серия>/lecNN/lecNN.md -> html/<серия>.html (вся серия одной страницей с оглавлением)
 //   quizzes/quizNN.md                             -> html/quizzes/quizNN.html (материалы к летучкам)
+//   quizzes/tests.md (с заголовком #)              -> html/quizzes/tests.html (ответы с оглавлением)
 //   readings/book.md                              -> html/readings/book.html (книга с оглавлением)
 // Запуск: node build.mjs [lectures/lec01/lec01.md | lectures/notes | quizzes/quiz01.md ...]  (без аргументов — всё)
 import fs from 'node:fs';
@@ -75,6 +76,7 @@ figcaption{font-size:.85em;color:var(--muted);margin-top:.3em}
   .reading{font-size:10.5pt;line-height:1.5}
   .reading .toc{font-size:10pt}
   .reading .lecture{break-before:page}
+  .study .lecture+.lecture{break-before:auto;margin-top:2em}
   a{text-decoration:none}
 }
 `;
@@ -140,15 +142,15 @@ function buildLecture(mdFile, outDir) {
   write(path.basename(mdFile, '.md'), title, makeMarked(path.dirname(mdFile)).parse(md), outDir);
 }
 
-function renderToc(toc) {
+function renderToc(toc, expanded = false) {
   const link = i => `<a href="#${i.id}">${i.html}</a>`;
   return `<nav class="toc" id="toc"><h2>Оглавление</h2><ol>\n${toc.map(l => l.children.length
-    ? `<li><details><summary>${link(l)}</summary><ul>${l.children.map(c => `<li>${link(c)}</li>`).join('')}</ul></details></li>`
+    ? `<li><details${expanded ? ' open' : ''}><summary>${link(l)}</summary><ul>${l.children.map(c => `<li>${link(c)}</li>`).join('')}</ul></details></li>`
     : `<li>${link(l)}</li>`).join('\n')}\n</ol></nav>\n`;
 }
 
-// Книга в одном Markdown: вступление до первой главы, главы — заголовки второго уровня.
-function buildReading(mdFile) {
+// Единый документ: вступление до первого раздела, разделы — заголовки второго уровня.
+function buildReading(mdFile, outDir = path.join('html', 'readings'), layout = 'reading') {
   const marked = makeMarked(path.dirname(mdFile));
   const tokens = marked.lexer(fs.readFileSync(mdFile, 'utf8'));
   const title = tokens.find(t => t.type === 'heading' && t.depth === 1).text;
@@ -168,8 +170,8 @@ function buildReading(mdFile) {
   }
   const sections = chapters.map(chapter => `<section class="lecture">\n${marked.parser(chapter)}</section>\n`);
   write(path.basename(mdFile, '.md'), title,
-    `<div class="reading">${marked.parser(intro)}${renderToc(toc)}${sections.join('')}<a class="totop" href="#toc" aria-label="К оглавлению">☰</a></div>\n`,
-    path.join('html', 'readings'));
+    `<div class="${layout}">${marked.parser(intro)}${renderToc(toc, layout === 'study')}${sections.join('')}<a class="totop" href="#toc" aria-label="К оглавлению">☰</a></div>\n`,
+    outDir);
 }
 
 // серия: index.md (заголовок и вступление) + оглавление + все лекции подряд
@@ -202,7 +204,11 @@ function buildSeries(seriesDir) {
 }
 
 function build(target) {
-  if (path.normalize(target).startsWith(`quizzes${path.sep}`)) buildLecture(target, path.join('html', 'quizzes'));
+  if (path.normalize(target).startsWith(`quizzes${path.sep}`)) {
+    const outDir = path.join('html', 'quizzes');
+    if (/^# /m.test(fs.readFileSync(target, 'utf8'))) buildReading(target, outDir, 'study');
+    else buildLecture(target, outDir);
+  }
   else if (path.normalize(target).startsWith(`readings${path.sep}`)) buildReading(target);
   else if (fs.existsSync(path.join(target, 'index.md'))) buildSeries(target);
   else if (target.endsWith('.md')) buildLecture(target);
@@ -232,7 +238,7 @@ try {
     });
     const pdf = html.replace(/^html\//, 'pdf/').replace(/\.html$/, '.pdf');
     fs.mkdirSync(path.dirname(pdf), { recursive: true });
-    const reading = html.startsWith('html/readings/');
+    const reading = html.startsWith('html/readings/') || html.startsWith('html/quizzes/') && await page.locator('.study').count() > 0;
     await page.pdf({ path: pdf, format: 'A4', preferCSSPageSize: true, printBackground: true,
       ...(reading ? { displayHeaderFooter: true, headerTemplate: '<span></span>',
         footerTemplate: '<div style="width:100%;text-align:center;font-size:9px;color:#555"><span class="pageNumber"></span> / <span class="totalPages"></span></div>' } : {}) });
