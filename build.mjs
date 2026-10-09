@@ -77,6 +77,7 @@ figcaption{font-size:.85em;color:var(--muted);margin-top:.3em}
   .reading .toc{font-size:10pt}
   .reading .lecture{break-before:page}
   .study .lecture+.lecture{break-before:auto;margin-top:2em}
+  .study .answer{break-inside:avoid}
   a{text-decoration:none}
 }
 `;
@@ -168,7 +169,20 @@ function buildReading(mdFile, outDir = path.join('html', 'readings'), layout = '
     }
     (chapters.at(-1) ?? intro).push(t);
   }
-  const sections = chapters.map(chapter => `<section class="lecture">\n${marked.parser(chapter)}</section>\n`);
+  const sections = chapters.map(chapter => {
+    let body;
+    if (layout === 'study') {
+      const header = [];
+      const answers = [];
+      for (const t of chapter) {
+        if (t.type === 'heading' && t.depth === 3) answers.push([]);
+        (answers.at(-1) ?? header).push(t);
+      }
+      body = marked.parser(header) + answers.map(answer =>
+        `<section class="answer">\n${marked.parser(answer)}</section>\n`).join('');
+    } else body = marked.parser(chapter);
+    return `<section class="lecture">\n${body}</section>\n`;
+  });
   write(path.basename(mdFile, '.md'), title,
     `<div class="${layout}">${marked.parser(intro)}${renderToc(toc, layout === 'study')}${sections.join('')}<a class="totop" href="#toc" aria-label="К оглавлению">☰</a></div>\n`,
     outDir);
