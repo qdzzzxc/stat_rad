@@ -2,6 +2,7 @@
 //   lectures/lecNN/lecNN.md                       -> html/lecNN.html    (одна лекция)
 //   lectures/<серия>/index.md + <серия>/lecNN/lecNN.md -> html/<серия>.html (вся серия одной страницей с оглавлением)
 //   quizzes/quizNN.md                             -> html/quizzes/quizNN.html (материалы к летучкам)
+//   readings/book.md                              -> html/readings/book.html (книга с оглавлением)
 // Запуск: node build.mjs [lectures/lec01/lec01.md | lectures/notes | quizzes/quiz01.md ...]  (без аргументов — всё)
 import fs from 'node:fs';
 import path from 'node:path';
@@ -71,6 +72,9 @@ figcaption{font-size:.85em;color:var(--muted);margin-top:.3em}
   figure svg{max-width:95mm;max-height:160mm}
   .totop{display:none}
   .lecture+.lecture{break-before:page;margin-top:0}
+  .reading{font-size:10.5pt;line-height:1.5}
+  .reading .toc{font-size:10pt}
+  .reading .lecture{break-before:page}
   a{text-decoration:none}
 }
 `;
@@ -136,6 +140,38 @@ function buildLecture(mdFile, outDir) {
   write(path.basename(mdFile, '.md'), title, makeMarked(path.dirname(mdFile)).parse(md), outDir);
 }
 
+function renderToc(toc) {
+  const link = i => `<a href="#${i.id}">${i.html}</a>`;
+  return `<nav class="toc" id="toc"><h2>Оглавление</h2><ol>\n${toc.map(l => l.children.length
+    ? `<li><details><summary>${link(l)}</summary><ul>${l.children.map(c => `<li>${link(c)}</li>`).join('')}</ul></details></li>`
+    : `<li>${link(l)}</li>`).join('\n')}\n</ol></nav>\n`;
+}
+
+// Книга в одном Markdown: вступление до первой главы, главы — заголовки второго уровня.
+function buildReading(mdFile) {
+  const marked = makeMarked(path.dirname(mdFile));
+  const tokens = marked.lexer(fs.readFileSync(mdFile, 'utf8'));
+  const title = tokens.find(t => t.type === 'heading' && t.depth === 1).text;
+  const intro = [];
+  const chapters = [];
+  const toc = [];
+  let n = 0;
+  for (const t of tokens) {
+    if (t.type === 'heading' && t.depth === 2) chapters.push([]);
+    if (t.type === 'heading' && (t.depth === 2 || t.depth === 3)) {
+      t.id = `h${++n}`;
+      const item = { id: t.id, html: marked.parseInline(t.text), children: [] };
+      if (t.depth === 2) toc.push(item);
+      else toc.at(-1)?.children.push(item);
+    }
+    (chapters.at(-1) ?? intro).push(t);
+  }
+  const sections = chapters.map(chapter => `<section class="lecture">\n${marked.parser(chapter)}</section>\n`);
+  write(path.basename(mdFile, '.md'), title,
+    `<div class="reading">${marked.parser(intro)}${renderToc(toc)}${sections.join('')}<a class="totop" href="#toc" aria-label="К оглавлению">☰</a></div>\n`,
+    path.join('html', 'readings'));
+}
+
 // серия: index.md (заголовок и вступление) + оглавление + все лекции подряд
 function buildSeries(seriesDir) {
   const lectures = fs.readdirSync(seriesDir).sort()
@@ -158,10 +194,7 @@ function buildSeries(seriesDir) {
     return `<section class="lecture">\n${marked.parser(tokens)}</section>\n`;
   });
 
-  const link = i => `<a href="#${i.id}">${i.html}</a>`;
-  const tocHtml = `<nav class="toc" id="toc"><h2>Оглавление</h2><ol>\n${toc.map(l => l.children.length
-    ? `<li><details><summary>${link(l)}</summary><ul>${l.children.map(c => `<li>${link(c)}</li>`).join('')}</ul></details></li>`
-    : `<li>${link(l)}</li>`).join('\n')}\n</ol></nav>\n`;
+  const tocHtml = renderToc(toc);
 
   const intro = makeMarked(seriesDir).parse(indexMd);
   write(path.basename(seriesDir), title,
@@ -170,6 +203,7 @@ function buildSeries(seriesDir) {
 
 function build(target) {
   if (path.normalize(target).startsWith(`quizzes${path.sep}`)) buildLecture(target, path.join('html', 'quizzes'));
+  else if (path.normalize(target).startsWith(`readings${path.sep}`)) buildReading(target);
   else if (fs.existsSync(path.join(target, 'index.md'))) buildSeries(target);
   else if (target.endsWith('.md')) buildLecture(target);
   else buildLecture(path.join(target, `${path.basename(target)}.md`));
@@ -180,11 +214,14 @@ const all = () => [
   ...fs.readdirSync('lectures').sort().map(d => path.join('lectures', d))
     .filter(d => fs.existsSync(path.join(d, 'index.md')) || fs.existsSync(path.join(d, `${path.basename(d)}.md`))),
   ...(fs.existsSync('quizzes') ? fs.readdirSync('quizzes').sort().filter(f => f.endsWith('.md')).map(f => path.join('quizzes', f)) : []),
+  ...(fs.existsSync('readings') ? fs.readdirSync('readings').sort().filter(f => f.endsWith('.md')).map(f => path.join('readings', f)) : []),
 ];
 for (const t of targets.length ? targets : all()) build(t);
 
 // PDF из тех же автономных страниц: шрифты готовы до печати, оглавление раскрыто.
-const browser = await chromium.launch({ channel: 'chromium' });
+const browser = await chromium.launch(process.env.CHROMIUM_EXECUTABLE_PATH
+  ? { executablePath: process.env.CHROMIUM_EXECUTABLE_PATH }
+  : { channel: 'chromium' });
 try {
   const page = await browser.newPage({ colorScheme: 'light' });
   for (const html of outputs) {
@@ -195,7 +232,10 @@ try {
     });
     const pdf = html.replace(/^html\//, 'pdf/').replace(/\.html$/, '.pdf');
     fs.mkdirSync(path.dirname(pdf), { recursive: true });
-    await page.pdf({ path: pdf, format: 'A4', preferCSSPageSize: true, printBackground: true });
+    const reading = html.startsWith('html/readings/');
+    await page.pdf({ path: pdf, format: 'A4', preferCSSPageSize: true, printBackground: true,
+      ...(reading ? { displayHeaderFooter: true, headerTemplate: '<span></span>',
+        footerTemplate: '<div style="width:100%;text-align:center;font-size:9px;color:#555"><span class="pageNumber"></span> / <span class="totalPages"></span></div>' } : {}) });
     console.log(pdf);
   }
 } finally {
