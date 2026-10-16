@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 290" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6">
+<defs><marker id="lec05-03" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+
+<path d="M30 105H310 M170 115V20 M30 250H310 M170 260V155" marker-end="url(#lec05-03)"/>
+<path class="acc" stroke="#2b59c3" stroke-width="2.4" d="M45 105H75V70H265V105H300 M45 250H75V239C115 234 143 224 160 160 M180 160C197 224 225 234 265 239V250H300"/>
+<path d="M75 115V250 M265 115V250" stroke-dasharray="4 4" opacity=".4"/>
+<g fill="currentColor" stroke="none"><text x="183" y="25">Sξ(ω)</text><text x="190" y="161">Sξ(ω)/ω²</text><text x="304" y="124">ω</text><text x="304" y="270">ω</text><text x="155" y="122">0</text><text x="155" y="269">0</text></g>
+</svg>

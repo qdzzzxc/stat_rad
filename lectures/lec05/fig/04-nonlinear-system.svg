@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 105" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6">
+<defs><marker id="lec05-04" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+
+<rect x="118" y="25" width="104" height="52" rx="4"/>
+<path d="M20 51H116 M222 51H320" marker-end="url(#lec05-04)"/>
+<g fill="currentColor" stroke="none" text-anchor="middle"><text x="60" y="38">ξ(t)</text><text x="277" y="38">η(t)</text><text x="170" y="48">ННС</text><text x="170" y="66">η = φ(ξ)</text></g>
+</svg>

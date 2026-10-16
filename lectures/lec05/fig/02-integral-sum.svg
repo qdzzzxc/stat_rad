@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 190" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6">
+<defs><marker id="lec05-02" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+
+<path d="M30 150H310 M30 155V20" marker-end="url(#lec05-02)"/>
+<path d="M30 150V65H60V150 M60 150V60H90V150 M90 150V66H120V150 M120 150V78H150V150 M150 150V84H180V150 M180 150V75H210V150 M210 150V60H240V150" opacity=".5"/>
+<path class="acc" stroke="#2b59c3" stroke-width="2.4" d="M30 65Q60 53 90 66T150 84T210 60Q240 43 265 53"/>
+<g fill="currentColor" stroke="none"><text x="8" y="22">ξ(τ)</text><text x="302" y="172">τ</text><text x="17" y="169">0</text><text x="43" y="173">Δt</text><text x="235" y="171">t</text><text x="156" y="25">N = t/Δt</text></g>
+</svg>

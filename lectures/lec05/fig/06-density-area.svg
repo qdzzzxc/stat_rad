@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 185" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6">
+<defs><marker id="lec05-06" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+
+<path d="M30 145H312 M30 155V15" marker-end="url(#lec05-06)"/>
+<path class="accf" fill="#2b59c3" fill-opacity=".2" stroke="none" d="M175 145V31Q188 36 201 60V145Z"/>
+<path class="acc" stroke="#2b59c3" stroke-width="2.4" d="M40 143C100 143 110 30 160 28S210 142 300 143"/>
+<path d="M175 145V31 M201 145V60"/>
+<g fill="currentColor" stroke="none"><text x="39" y="22">Wξ(x)</text><text x="304" y="167">x</text><text x="167" y="165">x</text><text x="203" y="165">x + Δx</text><text x="225" y="66">P ≈ Wξ(x)Δx</text></g>
+</svg>
