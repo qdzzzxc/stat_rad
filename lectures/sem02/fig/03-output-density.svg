@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 320 170">
+<defs><marker id="sem02-03" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+<path d="M15 140H305" marker-end="url(#sem02-03)"/><path d="M60 155V12" marker-end="url(#sem02-03)"/>
+<path class="acc" stroke="#2b59c3" stroke-width="2.6" d="M60 140V45" marker-end="url(#sem02-03)"/>
+<path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M62 125C80 85 95 80 115 95S200 135 295 138"/>
+<g fill="currentColor" stroke="none" font-style="italic"><text x="70" y="22">W(η)</text><text x="298" y="160">η</text><text x="70" y="55" class="accf" fill="#2b59c3">S·δ(η)</text><text x="50" y="158" font-style="normal">0</text></g>
+</svg>

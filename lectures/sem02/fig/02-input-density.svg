@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 330 170">
+<defs><marker id="sem02-02" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+<path class="accf" fill="#2b59c3" fill-opacity="0.35" stroke="none" d="M20 139C50 138 70 136 90 133V140H20Z"/>
+<path d="M15 140H315" marker-end="url(#sem02-02)"/><path d="M90 155V12" marker-end="url(#sem02-02)"/>
+<path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M20 139C70 138 110 130 150 90S195 30 205 30S240 50 260 90S290 138 310 139"/>
+<path d="M205 140V30" stroke-dasharray="4 4" stroke-width="1"/>
+<g fill="currentColor" stroke="none" font-style="italic"><text x="98" y="22">W(ξ)</text><text x="306" y="160">ξ</text><text x="200" y="158">m</text><text x="80" y="158" font-style="normal">0</text><text x="50" y="124" class="accf" fill="#2b59c3">S</text></g>
+</svg>

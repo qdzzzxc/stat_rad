@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 320 180">
+<defs><marker id="sem02-01" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+<path d="M15 150H305" marker-end="url(#sem02-01)"/><path d="M150 165V12" marker-end="url(#sem02-01)"/>
+<path class="acc" stroke="#2b59c3" stroke-width="2.4" d="M20 150H150Q215 150 260 25"/>
+<g fill="currentColor" stroke="none" font-style="italic"><text x="158" y="22">η</text><text x="298" y="170">ξ</text><text x="266" y="84">αξ²</text><text x="140" y="168" font-style="normal">0</text></g>
+</svg>
