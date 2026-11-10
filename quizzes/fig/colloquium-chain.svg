@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 340 110">
+<defs><marker id="colloq-01" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+<rect x="60" y="30" width="80" height="44" rx="3"/><rect x="200" y="30" width="80" height="44" rx="3"/>
+<path d="M10 52H58" marker-end="url(#colloq-01)"/><path d="M140 52H198" marker-end="url(#colloq-01)"/><path d="M280 52H330" marker-end="url(#colloq-01)"/>
+<g fill="currentColor" stroke="none" font-style="italic" text-anchor="middle"><text x="100" y="57" font-style="normal">RC-цепь</text><text x="240" y="57">z = y³</text><text x="30" y="44">x(t)</text><text x="170" y="44">y(t)</text><text x="308" y="44">z(t)</text><text x="100" y="94" font-size="11">K(jω) = 1/(1 + jωRC)</text><text x="240" y="94" font-style="normal" font-size="11">ННС</text><text x="30" y="72" font-style="normal" font-size="11">бел. шум</text></g>
+</svg>
