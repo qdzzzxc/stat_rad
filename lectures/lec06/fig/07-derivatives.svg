@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 330 330">
+<defs><marker id="lec06-07" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+<path d="M15 70H310" marker-end="url(#lec06-07)"/><path d="M150 125V10" marker-end="url(#lec06-07)"/><path d="M15 190H310" marker-end="url(#lec06-07)"/><path d="M150 225V145" marker-end="url(#lec06-07)"/><path d="M15 280H310" marker-end="url(#lec06-07)"/><path d="M150 325V240" marker-end="url(#lec06-07)"/>
+<path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M20 105H110L200 35H300"/>
+<path class="acc" stroke="#2b59c3" stroke-width="2.6" d="M20 190H110V160H200V190H300"/>
+<path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M110 280V250" marker-end="url(#lec06-07)"/><path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M200 280V310" marker-end="url(#lec06-07)"/>
+<path d="M110 105V160 M200 35V160 M110 190V250 M200 190V280" stroke-dasharray="4 4" stroke-width="1"/>
+<g fill="currentColor" stroke="none" font-style="italic"><text x="160" y="22">φ(ξ)</text><text x="160" y="152">φ′(ξ)</text><text x="160" y="250">φ″(ξ)</text><text x="300" y="88">ξ</text><text x="300" y="208">ξ</text><text x="300" y="298">ξ</text><text x="95" y="210">−α</text><text x="205" y="208">β</text><text x="205" y="155">k</text><text x="38" y="262">kδ(ξ+α)</text><text x="208" y="318">−kδ(ξ−β)</text></g>
+</svg>

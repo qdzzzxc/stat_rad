@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif" font-size="13" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 320 258">
+<defs><marker id="lec06-04" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/></marker></defs>
+<path d="M40 60H300" marker-end="url(#lec06-04)"/><path d="M40 60V10" marker-end="url(#lec06-04)"/><path d="M40 135H300" marker-end="url(#lec06-04)"/><path d="M40 135V85" marker-end="url(#lec06-04)"/><path d="M40 230H300" marker-end="url(#lec06-04)"/><path d="M40 230V160" marker-end="url(#lec06-04)"/>
+<path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M40 30H140V60 M40 105H140V135 M40 230L140 180L240 230"/>
+<path d="M140 30V60 M140 160V230" stroke-dasharray="4 4"/>
+<g fill="currentColor" stroke="none" font-style="italic"><text x="50" y="20">W(ξ₁)</text><text x="290" y="78">ξ₁</text><text x="50" y="95">W(ξ₂)</text><text x="290" y="153">ξ₂</text><text x="50" y="170">W(η₂)</text><text x="290" y="248">η₂</text></g>
+</svg>
