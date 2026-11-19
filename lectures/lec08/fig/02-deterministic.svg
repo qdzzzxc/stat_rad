@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 170" font-family="Georgia, serif" font-size="15" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs>
+    <marker id="lec08-a02" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path class="accf" d="M0 0L10 5L0 10z" fill="#2b59c3" stroke="none"/>
+    </marker>
+  </defs>
+  <path d="M23 85C31 50 62 35 98 44C130 52 151 76 149 104C146 134 121 148 87 151C51 154 19 127 23 85Z"/>
+  <path d="M66 45C69 66 53 66 49 83C46 93 35 96 22 95M58 70C77 83 94 76 109 88C125 101 137 93 147 89M113 92C96 104 117 122 106 133C102 138 103 144 104 149M52 140C66 127 86 126 106 133"/>
+  <path d="M213 92C220 55 251 42 280 53C304 63 324 88 320 113C315 141 290 157 261 156C233 155 206 134 213 92Z"/>
+  <path d="M245 55C259 68 255 78 240 84C228 89 224 89 214 89M231 87C242 97 245 109 240 123M220 136C234 116 258 119 273 153M259 131C274 122 294 112 320 114"/>
+  <g class="acc" stroke="#2b59c3" stroke-width="1.9" marker-end="url(#lec08-a02)">
+    <path d="M105 65C145 29 199 27 231 65"/>
+    <path d="M133 109C164 121 181 150 233 141"/>
+  </g>
+  <g fill="currentColor" stroke="none">
+    <text x="82" y="33">U</text>
+    <text x="265" y="37">Γ</text>
+    <text x="43" y="65">U₁</text>
+    <text x="81" y="70">U₂</text>
+    <text x="119" y="107">U₃</text>
+    <text x="74" y="144">U<tspan dy="4" font-size="11">k</tspan></text>
+    <text x="230" y="76">γ₁</text>
+    <text x="221" y="110">γ₂</text>
+    <text x="243" y="140">γ₃</text>
+    <text x="284" y="137">γ<tspan dy="4" font-size="11">k</tspan></text>
+  </g>
+</svg>

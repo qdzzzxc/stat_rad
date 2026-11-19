@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 174" font-family="Georgia, serif" font-size="15" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs>
+    <marker id="lec08-a03" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path class="accf" d="M0 0L10 5L0 10z" fill="#2b59c3" stroke="none"/>
+    </marker>
+  </defs>
+  <path d="M24 94C27 61 45 46 70 46C97 44 119 70 119 102C118 128 100 145 73 145C44 145 22 124 24 94Z"/>
+  <path d="M24 97C43 97 46 78 54 71C61 65 70 66 75 47"/>
+  <path d="M231 100C234 72 254 51 276 53C300 54 322 75 323 105C326 130 310 147 282 151C256 154 227 135 231 100Z"/>
+  <path d="M294 59C282 72 273 88 255 88C248 88 237 93 232 97M283 74C289 88 307 96 323 95M323 109C303 99 290 114 292 131C293 140 287 146 282 151"/>
+  <g class="acc" stroke="#2b59c3" stroke-width="1.9" marker-end="url(#lec08-a03)">
+    <path d="M67 54C132 34 226 32 260 65"/>
+    <path d="M67 54C146 10 299 11 315 88"/>
+    <path d="M67 54C146 60 143 132 204 151C248 165 278 170 304 139"/>
+  </g>
+  <g fill="currentColor" stroke="none">
+    <text x="52" y="35">U</text>
+    <text x="319" y="52">Γ</text>
+    <text x="32" y="77">U<tspan dy="4" font-size="11">i</tspan></text>
+    <text x="261" y="79">γ₁</text>
+    <text x="295" y="83">γ₂</text>
+    <text x="301" y="130">γ<tspan dy="4" font-size="11">j</tspan></text>
+  </g>
+  <g class="accf" fill="#2b59c3" stroke="none">
+    <text x="158" y="57">p₁</text>
+    <text x="229" y="21">p₂</text>
+    <text x="139" y="131">p<tspan dy="4" font-size="11">j</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 201" font-family="Georgia, serif" font-size="16" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs>
+    <marker id="lec08-a04" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path class="accf" d="M0 0L10 5L0 10z" fill="#2b59c3" stroke="none"/>
+    </marker>
+  </defs>
+  <path d="M146 38C175 52 145 76 172 91C195 103 184 126 176 140C217 135 239 112 229 82C221 50 185 30 146 38Z" class="accf" fill="#2b59c3" fill-opacity=".12" stroke="none"/>
+  <path d="M104 64C126 32 165 28 195 45C225 62 240 89 230 112C222 134 193 145 163 141C128 139 97 130 95 102C94 86 98 73 104 64Z"/>
+  <path d="M146 38C175 52 145 76 172 91C195 103 184 126 176 140"/>
+  <g class="acc" stroke="#2b59c3" stroke-width="1.9" marker-end="url(#lec08-a04)">
+    <path d="M115 80L79 66"/>
+    <path d="M211 97L255 79"/>
+  </g>
+  <path d="M127 136L110 157M210 133L228 157"/>
+  <g fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="166" y="26">U</text>
+    <text x="126" y="107">U₀</text>
+    <text x="200" y="83">U₁</text>
+    <text x="107" y="174">Допустимая<tspan x="107" dy="17">область</tspan></text>
+    <text x="231" y="174">Критическая<tspan x="231" dy="17">область</tspan></text>
+  </g>
+  <g class="accf" fill="#2b59c3" stroke="none" text-anchor="middle">
+    <text x="51" y="67">γ₀ (H₀)</text>
+    <text x="286" y="82">γ₁ (H₁)</text>
+  </g>
+</svg>
