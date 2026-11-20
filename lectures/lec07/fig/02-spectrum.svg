@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 168" font-family="Georgia, serif" font-size="15" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs>
+    <marker id="lec07-a02" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/>
+    </marker>
+  </defs>
+  <g marker-end="url(#lec07-a02)">
+    <path d="M31 131H298"/>
+    <path d="M31 131V18"/>
+    <path d="M136 83H152"/>
+    <path d="M224 83H211"/>
+  </g>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.2" d="M46 130C111 130 135 127 152 83C161 59 169 34 181 34C195 34 201 70 211 91C227 126 244 130 281 130"/>
+  <path d="M181 41V137" stroke-dasharray="4 4" opacity=".65"/>
+  <path d="M153 83H210" stroke-dasharray="2.5 3" opacity=".65"/>
+  <g fill="currentColor" stroke="none">
+    <text x="41" y="24">S(ω)</text>
+    <text x="172" y="155">ω₀</text>
+    <text x="298" y="151">ω</text>
+    <text x="225" y="79">Δω<tspan dy="4" font-size="11">эфф</tspan></text>
+  </g>
+</svg>

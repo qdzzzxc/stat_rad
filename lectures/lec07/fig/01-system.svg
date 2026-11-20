@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" font-family="Georgia, serif" font-size="17" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs>
+    <marker id="lec07-a01" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/>
+    </marker>
+  </defs>
+  <rect class="acc" stroke="#2b59c3" x="113" y="29" width="94" height="52" rx="5"/>
+  <g marker-end="url(#lec07-a01)">
+    <path d="M24 55H111"/>
+    <path d="M207 55H296"/>
+  </g>
+  <g fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="66" y="43">ξ(t)</text>
+    <text class="accf" fill="#2b59c3" x="160" y="61">НИС</text>
+    <text x="254" y="43">η(t)</text>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 174" font-family="Georgia, serif" font-size="15" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs>
+    <marker id="lec07-a05" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/>
+    </marker>
+  </defs>
+  <g marker-end="url(#lec07-a05)">
+    <path d="M30 143H297"/>
+    <path d="M30 143V18"/>
+  </g>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.3" d="M30 143C53 79 63 44 88 44C115 44 127 84 152 114C177 142 218 143 281 143"/>
+  <path class="acc" stroke="#2b59c3" stroke-width="2" stroke-dasharray="6 4" d="M30 143C71 107 113 82 151 83C196 84 232 118 280 132"/>
+  <g marker-end="url(#lec07-a05)">
+    <path d="M115 36L102 43"/>
+    <path d="M210 73L192 93"/>
+  </g>
+  <g fill="currentColor" stroke="none">
+    <text x="41" y="23">W(A)</text>
+    <text x="119" y="39">σ₁</text>
+    <text x="214" y="74">σ₂ &gt; σ₁</text>
+    <text x="18" y="160">0</text>
+    <text x="295" y="162">A</text>
+  </g>
+</svg>

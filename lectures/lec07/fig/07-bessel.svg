@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 172" font-family="Georgia, serif" font-size="15" fill="none" stroke="currentColor" stroke-width="1.6" color="#1f2937">
+  <defs>
+    <marker id="lec07-a07" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="currentColor" stroke="none"/>
+    </marker>
+  </defs>
+  <g marker-end="url(#lec07-a07)">
+    <path d="M38 140H291"/>
+    <path d="M38 140V17"/>
+  </g>
+  <path class="acc" stroke="#2b59c3" stroke-width="2.3" d="M38 119C81 119 122 109 154 91C180 76 204 52 218 21"/>
+  <path d="M32 119H44"/>
+  <g fill="currentColor" stroke="none">
+    <text x="48" y="24">I₀(x)</text>
+    <text x="21" y="124">1</text>
+    <text x="25" y="158">0</text>
+    <text x="289" y="158">x</text>
+  </g>
+</svg>
